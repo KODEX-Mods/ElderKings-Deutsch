@@ -1,0 +1,6 @@
+﻿#EK EDIT: clarified interaction with dynamic holy sites
+
+l_english:
+
+ HOLY_SITE_BUILDING_ENABLED:1 "The [faith|E] of the holder considers this a [holy_site|E]. You may establish it as a [holy_site|E] using the #V Consecrate a new Holy Site in the Capital#! [decision|E]"
+ NOT_HOLY_SITE_BUILDING_ENABLED:1 "The [faith|E] of the holder must consider this a [holy_site|E]. You may establish it as a [holy_site|E] using the #V Consecrate a new Holy Site in the Capital#! [decision|E]"

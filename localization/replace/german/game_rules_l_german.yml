@@ -1,0 +1,28 @@
+﻿l_german:
+ setting_1453_end_date:1 "2E 896 / 3816"
+ setting_1453_end_date_desc:1 "The game will end in 2E 896, Last Year of the Second Era in Lore."
+
+ rule_hybrid_and_divergence_cooldowns:1 "Divergent Culture Cooldowns"
+ setting_default_hybrid_and_divergence_cooldowns:1 "Default"
+ setting_default_hybrid_and_divergence_cooldowns_desc:1 "[cultures|E] can only [diverge|E] after having existed for #V 100#! years."
+ setting_slower_hybrid_and_divergence_cooldowns:1 "#high Slower#!"
+ setting_slower_hybrid_and_divergence_cooldowns_desc:1 "[cultures|E] can only [diverge|E] after having existed for #V 200#! years."
+ setting_no_hybrid_and_divergence_cooldowns:1 "#high No Cooldowns#!"
+ setting_no_hybrid_and_divergence_cooldowns_desc:1 "There are no cooldowns for when a [culture|E] is allowed to [diverge|E]."
+ setting_faster_hybrid_and_divergence_cooldowns:1 "#high Faster#!"
+ setting_faster_hybrid_and_divergence_cooldowns_desc:1 "[cultures|E] can only [diverge|E] after having existed for #V 50#! years."
+
+ setting_default_regional_heresy_desc:1 "Heresy outbreaks in certain regions are more likely to be historical heresies, such as ??? in ???."
+
+ rule_same_sex_marriage:1 "Same-Sex Marriage"
+ setting_default_same_sex_marriage:1 "Default"
+ setting_default_same_sex_marriage_desc:1 "Same-sex marriage is not available."
+ setting_accepted_same_sex_marriage:1 "#high Accepted#!"
+ setting_accepted_same_sex_marriage_desc:1 "Same-sex marriage and concubinage is available for everyone whose Faith accepts it, and whose culture practices concubinage. To enable for #EMP everyone#! set the $rule_same_sex_relations$ Game Rule to $setting_accepted_same_sex_relations$!"+
+
+ rule_hybrid_culture_ai_frequency:1 "Hybridization"
+ setting_none_hybrid_culture_ai_frequency:1 "#high Disabled#!"
+ setting_none_hybrid_culture_ai_frequency_desc:1 "In EK2, cultures cannot hybridize due to incompatibilities with our species system. This cannot be resolved at this time"
+ 
+ setting_accepted_same_sex_marriage:1 "#high Accepted - Strict#!"
+ setting_accepted_same_sex_marriage_desc:1 "Same as vanilla but same-sex marriage is restricted to the corresponding sexualities. To disable this for players see $setting_ek_accepted_same_sex_marriage_anyone_player$."
