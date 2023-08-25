@@ -6,19 +6,21 @@
  FAITH_DOCTRINES_IMPORTANT_SPECIAL:0 "Special Doctrines"
  
  FAITH_WINDOW_FERVOR_EQUILIBRIUM:0 "/[Faith.MakeScope.Var('fervor_equilibrium').GetValue|0]%"
- 
- 
- ### Dynamic holy sites
- DYNAMIC_HOLY_SITE_HELD_FAITH:0 "Held by the Faith"
- DYNAMIC_HOLY_SITE_NOT_HELD_FAITH:0 "NOT held by the Faith"
- DYNAMIC_HOLY_SITE_NOT_HELD_FAITH_HOSTILITY:0 "[Title.GetHolder.GetFaith.GetRelationNameTo( GetPlayer.GetFaith )|V]"
- DYNAMIC_HOLY_SITE_ACTIVE:0 "#P Active#! Holy Site"
- DYNAMIC_HOLY_SITE_INACTIVE:0 "#N Inactive#! Holy Site"
- FAITH_DYNAMIC_HOLY_SITE_EXPLANATION:0 "Holy Sites held by your [faith|E] or a Faith with the correct [doctrines|E] and [faith_hostility|E] are considered #V Active#! and can be selected during a [pilgrimage|E].\nA few select Holy Sites have special abilities, which are only available if your [faith|E] owns the Holy Site."
- 
- dhs_effect_none:0 "Controlled Holy Site modifier:\nNo special effect"
- dhs_effect_conversion_resistance_50:0 "Controlled Holy Site modifier:\n#P +50%#! resistance to conversion"
- COURT_CHAPLAIN_CONVERSION_DYNAMIC_HOLY_SITE_IMPERIAL_CITY:0 "Special [holy_site|E] effect: Imperial City"
 
- #TRADITION_CATEGORY_NAME:0 "" # <DELETE THIS KEY>
- tradition_group_core:0 "Core"
+# Faith Creation window
+hide_tenets:0 "Hide Tenets"
+hide_main_group:0 "Hide Main Doctrines"
+hide_pantheon:0 "Hide Pantheon Doctrines"
+hide_marriage:0 "Hide Marriage Doctrines"
+hide_crimes:0 "Hide Crime Doctrines"
+hide_clergy:0 "Hide Clergy Doctrines"
+hide_daedric_princes:0 "Hide Daedric Doctrines"
+hide_virtues_sins:0 "Hide Virtues and Sins"
+show_tenets:0 "Show Tenets"
+show_main_group:0 "Show Main Doctrines"
+show_pantheon:0 "Show Pantheon Doctrines"
+show_marriage:0 "Show Marriage Doctrines"
+show_crimes:0 "Show Crime Doctrines"
+show_clergy:0 "Show Clergy Doctrines"
+show_daedric_princes:0 "Show Daedric Doctrines"
+show_virtues_sins:0 "Show Virtues and Sins"

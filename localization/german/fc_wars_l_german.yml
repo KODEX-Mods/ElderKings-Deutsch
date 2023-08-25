@@ -1,7 +1,7 @@
 ﻿l_german:
  HOSTAGES_WAR_NAME:0 "Free Captives"
- hostages_war_victory_desc:0 "All [prisoners|E] and forced [concubines|E] considered close to [attacker.GetShortUIName|U] and held in the court of [defender.GetShortUIName|U] are freed. [defender.GetShortUIName|U] will pay a tribute to [attacker.GetShortUIName|U] as reparations."
- hostages_war_white_peace_desc:0 "The [prisoners|E] and forced [concubines|E] stay within the court of [attacker.GetShortUIName|U]."
+ hostages_war_victory_desc:0 "All [prisoners|E] and forced [concubines|E] considered close to [attacker.GetShortUIName|U] and held in the court of [defender.GetShortUIName|U] are freed."
+ hostages_war_white_peace_desc:0 "The [prisoners|E] and forced [concubines|E] stay within the court of [defender.GetShortUIName|U]."
  hostages_war_defeat_desc:0 "The [prisoners|E] and forced [concubines|E] stay within the court of [defender.GetShortUIName|U]. [attacker.GetShortUIName|U] will pay a tribute to [defender.GetShortUIName|U] as reparations."
 
  fc_war_event.0001.t:0 "Freeing One's Own Kin"
@@ -12,12 +12,12 @@
  fc_war_event.0001.a.continue_war:0 "[attacker.GetFirstName] presses on!"
  fc_war_event.0001.a.continue_war.ct:0 "Despite our generous offer, [attacker.GetFirstName] refuses to make peace and forces our hand!"
  fc_war_event.0001.b:0 "[fc_chosen_captive.GetFirstName] will serve as an exemple!"
- fc_war_event.0001.c:0 "Execute them all! Let [attacker.GetFirstName] what happens when someone marches on us!"
+ fc_war_event.0001.c:0 "Execute them all! Let [attacker.GetFirstName] know what happens when someone marches on us!"
  fc_war_event.0001.d:0 "This will be settled on the battlefield!"
  fc_war_event.0001.d.ct:0 "The war will go on until we can declare total victory!"
  fc_war_event.0001.d.loss:0 "Should we lose, we will have to #N pay a heavy tribute#! as well as liberate the prisoners."
  
- fc_war_event.0002.desc:0 "It seems that the threat of our armies was enough to make [defender.GetShortUIName] understand the precarity of [defender.GetHerHis] situation. [defender.GetSheHe|U] offered us to liberate [fc_chosen_captive.GetFirstName] and the others, should we agree to stop the ongoing hostilities.\n\nMost expect us to order our armies to stand down and acceot the ceasefire. But perhaps we should show [defender.GetFirstName], and the world, what happens when someone threatens our family.\nAnd by forcing [defender.GetFirstName] to surrender, we could also seize most of [defender.GetHerHis] treasury..."
+ fc_war_event.0002.desc:0 "It seems that the threat of our armies was enough to make [defender.GetShortUIName] understand the precarity of [defender.GetHerHis] situation. [defender.GetSheHe|U] offered us to liberate [fc_chosen_captive.GetFirstName] and the others, should we agree to stop the ongoing hostilities.\n\nMost expect us to order our armies to stand down and accept the ceasefire. But perhaps we should show [defender.GetFirstName], and the world, what happens when someone threatens our family.\nAnd by forcing [defender.GetFirstName] to surrender, we could also seize most of [defender.GetHerHis] treasury..."
  fc_war_event.0002.a:0 "Everyone is back. And that is what matters."
  fc_war_event.0002.b:0 "Let the world see what happens when someone tries to attack our family!"
  fc_war_event.0002.b.ct:0 "While refusing the proposition of [defender.GetFirstName] will put us in a potentially dishonorable position, it would also show the world that we are ready to fight for our family."

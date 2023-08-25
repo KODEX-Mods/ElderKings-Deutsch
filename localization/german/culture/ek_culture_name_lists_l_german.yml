@@ -30,6 +30,7 @@
  name_list_wrothgarian:0 "Wrothgarian"
  #ek_chimeri
  name_list_chimer:0 "Chimer"
+ name_list_cantemiric:0 "Cantemiric"
  #ek_cyrodiilic
  name_list_colovian:0 "Colovian"
  name_list_strident:0 "Strident"
@@ -68,8 +69,11 @@
  name_list_galen:0 "Northern Nedic"
  name_list_duraki:0 "Duraki"
  #ek_nedic_south
- name_list_yespest:0 "Yespest"
  name_list_nede:0 "Nedic"
+ name_list_yespest:0 "Yespest"
+ name_list_kothringi:0 "Kothringi"
+ name_list_horwalli:0 "Horwalli"
+ name_list_orma:0 "Orma"
  #ek_old_breton
  name_list_bjoule:0 "Bjoule"
  #ek_orsimeri

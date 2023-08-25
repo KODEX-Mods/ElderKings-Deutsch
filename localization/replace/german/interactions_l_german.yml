@@ -1,0 +1,3 @@
+l_german:
+# Empire to High Kingdom replacement
+ I_ALREADY_HAVE_A_KINGDOM_OR_EMPIRE_CLAIM:0 "You already have a [pressed_claim|E] on a Kingdom or High Kingdom: $VALUE|=+0$"

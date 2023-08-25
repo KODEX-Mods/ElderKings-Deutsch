@@ -63,6 +63,4 @@
  pirate_court_court_fantastic_desc:0 "Our court is filled with rare artefacts and mountains of gold pillages from our most recent raids. Everyone in the world will know of the vast wealth of our court, and they most probably be delighted of their own unwilling contribution."
  owner_pirate_court_court_fantastic:0 "#V 20%#! of your [raid_loot|E] will be gained as [grandeur|E] instead"
  
- COURT_AMENITIES_PIRATES_NO_AMENITIES:0 "[pirate|E] do not get [grandeur|E] via [amenities|E], but with the $pirate_court_court$ after a [raid|E]"
- COURT_AMENITIES_PIRATES_NO_AMENITIES:0 "Use $pirate_court_court$ to get [grandeur|E] as a [pirate|E]"
- COURT_AMENITIES_PIRATES_NO_AMENITIES:0 "#N No [grandeur|E] gain via [amenities|E] due to being a Pirate#!"
+ COURT_AMENITIES_PIRATES_NO_AMENITIES_GRANDEUR:0 "\n[pirate|E] rulers do not get [grandeur|E] via [amenities|E], but with the $pirate_court_court$ after a [raid|E]."

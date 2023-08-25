@@ -1,12 +1,4 @@
 ﻿l_german:
- knight_culture_player:0 "[GetPlayer.Custom( 'KnightCulture' )]"
- knight_culture_player_plural:0 "[GetPlayer.Custom( 'KnightCulturePlural' )]"
- knight_culture_player_no_tooltip:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )]"
- knight_culture_player_plural_no_tooltip:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltip' )]"
- knight_culture_player_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )]"
- knight_culture_player_plural_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )]"
- knight_culture_player_plural_possessive_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCulturePluralPossessiveNoTooltipLowercase' )]"
- knight_culture_player_adjective_no_tooltip_lowercase:0 "[GetPlayer.Custom( 'KnightCultureAdjectiveNoTooltipLowercase' )]"
   
   # No tooltip versions
 
@@ -15,9 +7,6 @@
  
  knight_dunmer_no_tooltip:0 "Oathman"
  knight_dunmer_no_tooltip_plural:0 "Oathmen"
-
- knight_champion_no_tooltip:0 "Champion"
- knight_champion_no_tooltip_plural:0 "Champions"
  
  knight_redguard_no_tooltip:0 "Sword-Sworn"
  knight_redguard_no_tooltip_plural:0 "Sword-Sworn"
@@ -45,7 +34,9 @@
  
  knight_lilmothiit_no_tooltip:0 "Ranger"
  knight_lilmothiit_no_tooltip_plural:0 "Rangers"
- 
+
+ knight_imga_no_tooltip:0 "Knight"
+ knight_imga_no_tooltip_plural:0 "Knights" 
   
   # Lowercase versions
 
@@ -103,14 +94,16 @@
  knight_lilmothiit_no_tooltip_lowercase_plural:0 "rangers"
  knight_lilmothiit_no_tooltip_lowercase_plural_possessive:0 "rangers'"
  knight_lilmothiit_no_tooltip_lowercase_adjective:0 "ranger"
+
+ knight_imga_no_tooltip_lowercase:0 "knight"
+ knight_imga_no_tooltip_lowercase_plural:0 "knight"
+ knight_imga_no_tooltip_lowercase_plural_possessive:0 "knights"
+ knight_imga_no_tooltip_lowercase_adjective:0 "knightly"
  
   #Game Concept versions
 
  knight_nord:0 "[Concept( 'knight', '$knight_nord_no_tooltip$' )|E]"
  knight_nord_plural:0 "[Concept( 'knight', '$knight_nord_no_tooltip_plural$' )|E]"
-
- knight_champion:0 "[Concept( 'knight', '$knight_champion_no_tooltip$' )|E]"
- knight_champion_plural:0 "[Concept( 'knight', '$knight_champion_no_tooltip_plural$' )|E]"
  
  knight_dunmer:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip$' )|E]"
  knight_dunmer_plural:0 "[Concept( 'knight', '$knight_dunmer_no_tooltip_plural$' )|E]"
@@ -138,6 +131,9 @@
  
  knight_lilmothiit:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip$' )|E]"
  knight_lilmothiit_plural:0 "[Concept( 'knight', '$knight_lilmothiit_no_tooltip_plural$' )|E]"
+
+ knight_imga:0 "[Concept( 'knight', '$knight_imga_no_tooltip$' )|E]"
+ knight_imga_plural:0 "[Concept( 'knight', '$knight_imga_no_tooltip_plural$' )|E]"
  
  knight_bosmer:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip$' )|E]"
  knight_bosmer_plural:0 "[Concept( 'knight', '$knight_bosmer_no_tooltip_plural$' )|E]"

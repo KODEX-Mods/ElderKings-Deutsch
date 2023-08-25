@@ -2,7 +2,7 @@
  ek_scmc.0001.desc:0 "It seems that the procrastination to remove the plague of bandits from our land has had some unfortunate side effects.\n\n[bandit_leader.GetFirstNameNoTooltip], as the leader of the self-proclaimed [ROOT.Char.Custom('BanditFaction')], have started enacting banditry in the [bandit_county.GetTitle.GetName], claiming that our court doesn't care for the common people and robbery is the only way of feeding their families."
  ek_scmc.0001.a:0 "Sooner or later they will be eating steel!"
  ek_scmc.0001.t:0 "Crisis Averted!"
- ek_scmc.0010.d:0 "The last smudge of organised crime in [GetPlayer.GetCurrentLocation.GetName] is gone and the people is saved!"
+ ek_scmc.0010.d:0 "The last smudge of organised crime in [GetPlayer.GetCurrentLocation.GetName] is gone and the people are safe!"
  ek_scmc.0010.optA:0 "Rejoice, citizens!"
  ek_scmc.0010.optA_bandits_defeated_tt:0 "You have crushed all the bandits who tried to conquer your lands!"
  ek_scmc.8003.t:0 "Bandit Uprising: Inheritance"
@@ -32,6 +32,11 @@
  ek_scmc.1002.c:0 "Guards, seize this [crisis_bandit_leader.GetWomanMan] and prepare yourselves to battle!"
  ek_scmc.1002.c.tt:0 "You imprison the bandit leader and your guards rout the bandit camp!"
  ek_scmc.1002.d:0 "The realm cannot afford to deal with miscreants!"
+
+ ek_scmc.1003.t:0 "Bounty Decree"
+ ek_scmc.1003.desc:0 "I've been worrying lately about the rising [crisis_faction.GetName] all over my realm. Apparently, so has [steward.GetFirstName], as [steward.GetSheHe] approaches me with a new idea for solving this crisis.\n\n[steward.GetSheHe|U] suggests that the realm should issue a bounty offering a reward for [faction_leader.GetName]'s head. In [steward.GetHerHis] opinion, that should at least diminish the resolve of the [crisis_faction.GetNameNoTooltip]."
+ ek_scmc.1003.a:0 "That's a wonderful idea!"
+ ek_scmc.1003.b:0 "We have other uses for that money."
 
  ek_scmc.8001.t:0 "Bandit Uprising: Land of Outlaws"
  ek_scmc.8001.desc:0 "The time has passed for a less violent solution. [ROOT.Char.Custom('BanditFaction')] have taken hold of [bandit_county.GetName], lead by [bandit_leader.GetFirstNameNoTooltip]."

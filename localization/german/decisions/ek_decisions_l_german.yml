@@ -8,7 +8,25 @@
  stress_loss_vampire_decision_desc:0 "As a vampire, I can reduce my stress and nourish myself by drinking blood from an unwilling victim."
  stress_loss_vampire_decision_tooltip:0 "Let me prey on the innocent."
  stress_loss_vampire_decision_confirm:1 "Who shall be my next victim?"
+ stress_loss_lycan_decision:0 "Hunt as a Beast"
+ stress_loss_lycan_decision_desc:0 "As a werebeast, I can reduce my stress and nourish myself by devouring the flesh of an unwilling victim."
+ stress_loss_lycan_decision_tooltip:0 "Let me prey on the innocent."
+ stress_loss_lycan_decision_confirm:1 "Who shall be my next victim?"
  
+ # Nord pantheon or Atmoran to Dragon Cult conversion decision
+ convert_dragon_cult_decision:0 "Convert to the Dragon Cult"
+ convert_dragon_cult_decision_desc:0 "[ROOT.Char.GetFaith.PantheonTerm|U] are silent and unimpressive beings, responding to no prayers, residing in cold and unliving stone that fools carve and fools worship. The Dragons alone were living gods among the Nords, long ago, and brought tangible, fearsome powers to those who proved themselves worthy of speaking their flame-words and wearing their ferocious masks. I do not believe I am alone in admiring the Dragon Priests of old, who ruled a much more vital land on behalf of much more immediate gods..."
+ convert_dragon_cult_decision_tooltip:0 "Convert to the Dragon Cult"
+ convert_dragon_cult_decision_confirm:0 "I will seek out the nearest dragon mound, at midnight."
+ convert_dragon_cult_custom_desc:0 "You convert to the Dragon Cult and gain the [trait|E] [GetTrait('zealous').GetName( GetNullCharacter )]"
+ 
+ dragon_cult.1001.t:0 "The Dragon Burial Mound"
+ dragon_cult.1001.d:0 "By Alduin, it was I who was a fool to turn my back on the gods! Since the dawn of time the true gods have made their presence known to us mortals, and until time itself is consumed, it is our lot to serve them.\n\nAs I lay my eyes on the dragon mound before me, its strange runic script makes my eyes water for a second - I am not worthy, yet, to read the wild words, but this alone is testament to their strength.\n\nI will return, unchanged to the naked eye, to my court of unbelievers and ignorants, but there is dragon-fire in my heart now, never to be extinguished, soon to ignite the world."
+ dragon_cult.1001.a:0 "Praise be to Alduin!"
+ dragon_cult.1001.b:0 "On second thought..."
+
+
+    
  # Perks
  raise_risen_dead_decision:0 "Raise the Dead"
  raise_risen_dead_decision_desc:0 "Wars are won by the side that can throw the highest number of bodies onto the battlefield and city walls. And what better body than the one who already died?"
@@ -30,7 +48,7 @@
  commune_with_loved_one_soulmate_tooltip:0 "I will attempt to summon the soul of the love of my life, to finally mourn them and tell them one last time how much I love and miss them.\n\nIt might not be without risk however, as the soul I will try to summon may want to be left alone..."
  
  # Religious
- 
+
  take_vow_of_squalor_decision:0 "Take Vow of Squalor"
  take_vow_of_squalor_decision_tooltip:1 "You vow to live as the beggars and the sick do"
  take_vow_of_squalor_decision_desc:0 "$tenet_vows_of_squalor_desc$"
@@ -65,8 +83,8 @@
  call_for_nightmares_decision:0 "Call for Nightmares"
  call_for_nightmares_decision_desc:0 "While some self-called prophets will claim that their god spoke to them in their dreams, we know that the true divine only shows itself in one's deepest nightmares.\nWe must seek terror in our sleep, and defeat it to show our devotion and strength of spirit."
  call_for_nightmares_decision_effect_tooltip:0 "You will be sent a #N terrible nightmare#!, and will have to muster your force of will to confront and defeat it. Once the nightmares start, there is no coming back. Failing to prevail would mean that they will keep haunting you for the years to come..."
- call_for_nightmares_decision_effect_tooltip_success:0 "You prevail and defeat the Nightmare"
- call_for_nightmares_decision_effect_tooltip_failure:0 "The Nightmare engulfs you"
+ call_for_nightmares_decision_effect_tooltip_success:0 "You prevail and defeat the nightmare"
+ call_for_nightmares_decision_effect_tooltip_failure:0 "The nightmare engulfs you"
  call_for_nightmares_decision_confirm:0 "I am ready to face my fears..."
  call_for_nightmares_decision_tooltip:0 "Call forth a terrible nightmare, and let the divine see your resolve!"
  
@@ -137,28 +155,44 @@
  chukka_sei_decision_tooltip:0 "Partake on Chukka-Sei and prove myself worthy of being named."
  chukka_sei_decision_confirm:0 "Let the naming trial begin!"
  chukka_sei_decision_effect_tt:0 "Ingest #E Hist Sap#! and overcome your trial into adulthood."
+ current_month_5:0 "The current month is Hist-Dooka (5)"
  
  recruit_priest_liturgical_language_decision:0 "Request a new Realm Priest"
  recruit_priest_liturgical_language_decision_daedric:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is required to speak the Daedric tongue, but unfortunately no-one in my court knows the language of Oblivion. Luckily, I can summon a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the gap."
  recruit_priest_liturgical_language_decision_dragon:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is required to speak the Draconic tongue, but unfortunately no-one in my court knows Dovahzul, the language of the Dragons. Luckily, I can summon a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the gap."
- recruit_priest_liturgical_language_decision.tt:0 "A priest, able to speak your Faith's [liturgical_language|E], will be summoned to your court"
+ recruit_priest_liturgical_language_decision.tt:0 "A priest, able to speak your Faith's [liturgical_language|E], will be summoned to your [court|E]."
  recruit_priest_liturgical_language_decision_confirm:0 "Summon the [ROOT.Char.GetFaith.PriestNeuter]!"
  recruit_priest_liturgical_language_decision_tooltip:0 "Recruit a [ROOT.Char.GetFaith.PriestNeuter] from a local [ROOT.Char.GetFaith.HouseOfWorship] to fill the void in your court"
  priest_recruited.t:0 "Priest Recruited"
  priest_recruited.desc:0 "[new_priest.GetFullName] joined your court!"
 
- recruit_priest_liturgical_language_decision_tsaesci:0 "EK WIP PH"
+ recruit_priest_liturgical_language_decision_tsaesci:0 "Proper mastery of our sacred tongue is indispensable for a [ROOT.Char.GetFaith.PriestNeuter]. If we lack such talent in our midst, we can ask the priesthood to release a suitable individual into our service."
  
  learn_liturgical_language_decision:0 "Learn [ROOT.Char.Custom('GetLiturgicalLanguage')]"
  learn_liturgical_language_decision_desc:0 "While [ROOT.Char.Custom('GetLiturgicalLanguage')] is traditionally reserved to our clergy, it is known that the few who can master it are exalted as pious and rightful rulers. It might be wise to spend time and energy to learn it."
  learn_liturgical_language_decision_confirm:0 "I will master [ROOT.Char.Custom('GetLiturgicalLanguage')]!"
  learn_liturgical_language_decision_tooltip:0 "Start a [scheme|E] to master your [faith|E]'s [liturgical_language|E]"
 
+ champion_conversion_decision:0 "Devote yourself to your Prince"
+ champion_conversion_decision_desc:0 "While you are your Prince's champion, you do not openly follow a faith worthy of it. This can change now."
+ champion_conversion_decision_confirm:0 "I'm now devoted to you, my Prince!"
+ champion_conversion_decision_tooltip:0 "Change your [faith|E] to better match your status as Champion"
+
  sanguine_deal_decision:0 "Seek the Prince of Debauchery"
  sanguine_deal_decision_desc:0 "The curse imposed on you by Sanguine bears a heavy burden on your ability to rule. Much so that you decide to spare no effort to seek him out and renegotiate your end of the bargain."
  sanguine_deal_decision_tooltip:0 "Spend [gold|E], [piety|E] and [prestige|E] to find Sanguine again and make a bargain."
  sanguine_deal_decision_confirm:0 "I can't take it anymore, please!"
  sanguine_deal_decision_effect_tt:0 "The Lord of Revelry hears your pleas."
+
+ initiate_consolamentum_decision_age_tt:0 "Has [ek_age_modifier|E] equivalent to #N 60 years#! for average humans"
+
+ join_cote_decision:0 "Join the Council of the Eight"
+ join_cote_decision_desc:0 "The Divines long ago invested spiritual authority in Alessia the Paravant, and thus Cyrodiil has maintained a status as "first among equals" in spiritual matters. The Council of the Eight exists to enshrine this position in law, and at the same time grant regional chapels a seat at the table and a voice in the Arch-Primate's ear.\n\nAs the de facto worldly leader of my faith, I certainly have a say in its future, and perhaps our priesthood stands to gain more from joining the Council than our believers stand to lose from submitting to its authority."
+ join_cote_decision_tt:0 "Tie your faith to the Temple in Cyrodiil"
+ join_cote_decision_confirm:0 "Unity - for the Divines!"
+ gain_doctrine_spiritual_head:0 "Your [faith|E] gains the [GetFaithDoctrine('doctrine_spiritual_head').GetBaseName] [head_of_faith|E] Doctrine"
+ join_cote_decision_faith_hostility:0 "Your [faith|E] gets #P -5#! [faith_hostility|E] with faiths with the Council of the Eight as [head_of_faith|E]"
+ faith_not_considered_evil:0 "Your [faith|E] is not considered [faith_evil|E] by the Arch-Primate"
 
 # Artifacts
 
@@ -173,6 +207,18 @@ staff_sanguine_decision_desc:0 "Use the power of the $sanguine_alt$ imbued in th
 staff_sanguine_decision_tooltip:0 "Summon a daedric servant of Sanguine to act on your behalf as your courtier, at the risk of withering the Rose away!"
 staff_sanguine_decision_confirm:0 "Let's get this party started!"
 staff_sanguine_selection_tooltip:0 "Use the Sanguine Rose's power"
+
+staff_everscamp_decision:0 "Identify the Staff"
+staff_everscamp_decision_desc:0 "Peruse ancient tomes in the hopes of finding out what this intricate inscription on the staff says and where it originated from."
+staff_everscamp_decision_tooltip:0 "Finally solve the puzzle of this Mysterious Staff!"
+staff_everscamp_decision_confirm:0 "Neht, Oht, Neht..."
+staff_everscamp_selection_tooltip:0 "Seht, Ekem..."
+
+remove_everscamp_decision:0 "Remove the Everscamps Curse"
+remove_everscamp_decision_desc:0 "If I want to get rid of this accursed staff and these smelly creatures, I must travel to the shrine of Sheogorath in Darkfathom Cave!"
+remove_everscamp_decision_tooltip:0 "Travel to Darkfathom and remove this curse!"
+remove_everscamp_decision_confirm:0 "I must be rid of them!"
+remove_everscamp_selection_tooltip:0 "And also this foul odor!"
 
 bittercup_decision:0 "A Bitter Bargain"
 bittercup_decision_desc:0 "Make a bargain with $clavicus_alt$ by drinking from the Bittercup."
@@ -204,12 +250,35 @@ shadow_key_selection_tooltip:0 "Use the Shadowkey"
 shadow_key_decision_tooltip:0 "The Shadowkey will unlock your true potential, giving you an education rank upgrade and a massive boost to your lifestyle experience. However, it will be spent and return once more to the shadows."
 shadow_key_decision_confirm:0 "Unlock your Potential!"
 
+aok_decision:0 "Don the Amulet of Kings"
+aok_decision_tooltip:0 "Attempt to wear the Amulet of Kings and figure out if you are [GetTrait('dragonborn').GetName( Character.Self )]."
+aok_selection_tooltip:0 "Don the Amulet of Kings"
+aok_decision_desc:0 "The amulet can only be worn by certain individuals—those who could wear it were said to have the 'Dragon Blood' in their veins.\n\nThe specific requirements, however, have been a subject of debate, and they may simply have called for the attributes of a ruler or some divine mandate.\n\nIt is my time to attempt wearing the pendant of the Chim-El Adabal!"
+aok_decision_confirm:0 "May Akatosh's Will Be Done!"
+
 # Events
 
 spawn_razak_army_decision:0 "Razak's Army"
 spawn_razak_army_decision_desc:0 "Use Razak's Machine to gather an army of automaton soldiers!"
 spawn_razak_army_decision_tooltip:0 "An automaton army will rise from the Dwemer Ruins of Razak's Wheel to serve you."
 spawn_razak_army_decision_confirm:0 "Put Razak's Opus into use!"
+restore_nenalata_decision:0 "Restore the Capital of Nenalata"
+restore_nenalata_decision_desc:0 "Nenalata was once a mighty kingdom, the last of the Ayleid city-states to fall to the tyranny of the Alessian Order. Now we have a unique opportunity to excavate its ruins and restore it to glory as a capital worthy of a kingdom."
+restore_nenalata_decision_tooltip:0 "Unearth and restore the ancient capital of this kingdom"
+restore_nenalata_decision_confirm:0 "Begin the excavation of Nenalata!"
+recruit_shadowscale_decision:0 "Request a Shadowscale"
+recruit_shadowscale_decision_tooltip:0 "Seek a Shadowscale to join your [court|E] as your [GetCourtPositionType('shadowscale_court_position').GetName()]"
+recruit_shadowscale_decision_confirm:0 "Dread Father, send me your servant!"
+recruit_shadowscale_decision_desc:0 "The Shadowscales are an enigmatic order found in Black Marsh, made up of People-of-the-Root hatched under the sign of the Shadow and trained from birth in the art of stealth and substerfuge. As a respected Saxhleel ruler, I may recruit one into my service."
+recruit_shadowscale_decision_trigger:0 "You have not spurned the Shadowscale traditions"
+recruit_shadowscale_decision_effect:0 "A Shadowscale will shortly present themselves and join your [court|E]"
+convene_parliament_of_bugs:0 "Convene the Parliament of Bugs"
+convene_parliament_of_bugs_desc:0 "Whether it is a legislative organ, a great council, a rumour mill or a viper's nest is unclear. What is clear however is that the Parliament of Bugs is a truly Telvanni institution, well suited their nature as ceaseless quarrelers, plotters and scholars.\n\nWhen the Parliament is in session, anything goes."
+convene_parliament_of_bugs_tooltip:0 "#italic "Order! Order, or I will fry you lot!"#!"
+convene_parliament_of_bugs_confirm:0 "The Parliament is in session!"
+convene_parliament_of_bugs_effect:0 "All your vassals are invited to partake in the proceedings in Telvannis"
+
+
 
 # Courtier
 
@@ -221,8 +290,34 @@ hire_mage_decision_confirm:0 "Start the search"
 ek_court_position.0001.t:0 "Court Mage"
 ek_court_position.0001.desc:0 "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] court. As per my request, my servants have inquired after recommendations. Now they have assembled a few options to chose from."
 
+# Adoption
+adopt_child_decision:0 "Visit Orphanage"
+tribal_adopt_child_decision_name:0 "Adopt Orphaned Child"
+adopt_child_decision_tooltip:3 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
+adopt_child_decision_desc:1 "A nearby town holds an orphanage inside its walls. You may visit the orphanage in the hopes of finding a suitable heir for you to adopt."
+tribal_adopt_child_decision_desc:1 "The tribe has many orphaned children. You may visit their caretaker in the hopes of finding a suitable heir for you to adopt."
+adopt_child_decision_effect_tooltip:4 "You will be presented with a group of children and may adopt one of them"
+adopt_child_decision_confirm:0 "Surely there's someone worthy..."
+adopt_child_requirement_1:0 "You are close to death"
+adopt_child_requirement_2:0 "You cannot have children"
+adopt_child_requirement_3:0 "You are unable to have children with your [spouse|E] or a [concubine|E]"
+adopt_child_requirement_4:0 "A [city|E] within your [domain|E] must contain an #V $building_type_orphanage_01$#! building"
+adopt_child_requirement_5:0 "You do not have a [player_heir|E]"
+
+
 #Dev stuff, keep like this
 debug_mode_toggle_decision:0 "debug_mode_toggle_decision"
 debug_mode_toggle_decision_tooltip:0 "debug_mode_toggle_decision_tooltip"
 debug_mode_toggle_decision_desc:0 "debug_mode_toggle_decision_desc"
 debug_mode_toggle_decision_confirm:0 "debug_mode_toggle_decision_confirm"
+
+#Become Pirate On Game Start decision
+become_pirate_decision:0 "Change to Pirate Government!"
+become_pirate_decision_tooltip:0 "Become a Pirate!"
+become_pirate_decision_confirm:0 "Arrrr matey!"
+become_pirate_decision_desc:0 "@warning_icon! #X Allows you to become Pirate government once after game start! This decision will disappear after one in-game year! #!"
+
+stop_being_pirate_government_decision:0 "Abandon Piracy?"
+stop_being_pirate_government_decision_desc:0 "Being a Pirate might be lucrative but it lacks a certain legitimacy and authority more regular nobility holds, perhaps it is time to abandon our current governance and adopt a more centralized system? "
+stop_being_pirate_government_decision_confirm:0 "The time of Pirates is over."
+stop_being_pirate_government_decision_tooltip:0 "Perhaps its time for change."

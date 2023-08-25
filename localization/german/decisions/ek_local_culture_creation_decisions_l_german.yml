@@ -62,10 +62,10 @@
  create_local_culture_craglorn_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_craglorn_decision_tooltip:0 "$create_local_culture_decision_tooltip$"
  
- create_local_culture_alikr_decision:0 "$create_local_culture_decision$ Alikr"
- create_local_culture_alikr_decision_desc:0 "There are tales of ancient tribes living in the lands of Alikr centuries ago. We should revive their customs."
+ create_local_culture_alikr_decision:0 "$create_local_culture_decision$ Alik'r"
+ create_local_culture_alikr_decision_desc:0 "There are tales of ancient tribes living in the lands of Alik'r centuries ago. We should revive their customs."
  create_local_culture_alikr_decision_courtiers_embrace_new_culture:0 "$create_local_culture_decision_courtiers_embrace_new_culture$"
- create_local_culture_alikr_decision_provinces_embrace_new_culture:0 "All [counties|E] in your [domain|E] belonging to the Alikr region with the same [heritage|E] as you become [new_culture.GetName]"
+ create_local_culture_alikr_decision_provinces_embrace_new_culture:0 "All [counties|E] in your [domain|E] belonging to the Alik'r region with the same [heritage|E] as you become [new_culture.GetName]"
  create_local_culture_alikr_decision_capital_embrace_new_culture:0 "$create_local_culture_decision_capital_embrace_new_culture$"
  create_local_culture_alikr_decision_confirm:0 "$create_local_culture_decision_confirm$"
  create_local_culture_alikr_decision_tooltip:0 "$create_local_culture_decision_tooltip$"

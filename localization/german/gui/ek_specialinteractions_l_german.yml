@@ -1,3 +1,7 @@
 ﻿l_german:
  MARRIAGE_DIFFERENT_CULTURE_REASON:1 "Your [culture|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"
  MARRIAGE_DIFFERENT_CULTURE_GROUP_REASON:1 "Your [heritage|E] differs from [recipient.GetShortUIName]: $VALUE|+0$"
+
+ MARRIAGE_CROWN_FOREBEAR_REASON:0 "A child of the House of Akos Kasaz shall not marry an infidel of another house: $VALUE|+0$"
+ MARRIAGE_MONSTER_REASON:0 "Will not marry a [monster|E]: $VALUE|+0$"
+ MARRIAGE_FORMER_PARIAH_REASON:0 "Will not marry a former [pariah|E]: $VALUE|+0$"

@@ -1,6 +1,5 @@
 ﻿l_german:
  feast_main_stew_flood.0002.t:1 "$feast_header$ The Stew Sea"
- feast_main_stew_flood.0002.new_life.t:1 "New Life Festival: The Stew Sea"
  feast_main_stew_flood.0002.stew_introduction_blamed:0 "I had had a little too much to drink when I stumbled into the huge cauldron hanging over the fireplace in the feasting hall. It unlatched and came loose, and its savory broth welled forth to cover the floor in a sea of stew!"
  feast_main_stew_flood.0002.stew_introduction_blame:0 "In a drunken stumble, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stew_sea_blamed'))], [stew_sea_blamed.GetTitledFirstName], unlatched the enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover the floor in a sea of stew!"
  feast_main_stew_flood.0002.stew_introduction:0 "In the bustle of the feast, one of [activity.GetOwner.GetTitledFirstNamePossessive] servants accidentally unlatched the enormous cauldron that hung over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!"
@@ -11,7 +10,6 @@
  feast_main_stew_flood.0002.only_horror:0 "\n\n[stew_sea_horrified_character.GetTitledFirstName] stood catatonic in the middle of it all, shocked and horrified at the decadent waste."
  feast_main_stew_flood.0002.a:0 "I have never seen so much stew."
  feast_main_stew_flood.0003.t:1 "$feast_header$ The Stew Sea"
- feast_main_stew_flood.0003.new_life.t:1 "New Life Festival: The Stew Sea"
  feast_main_stew_flood.0003.stew_introduction_blame:0 "In a drunken stumble [stew_sea_blamed.GetTitledFirstName] unlatched an enormous cauldron hanging over the fireplace in the middle of the feasting hall! Savory broth welled forth to cover half the room in a sea of stew!"
  feast_main_stew_flood.0003.stew_introduction:0 "In the bustle of the feast, an idiot of a servant managed to unlatch the enormous cauldron that hung over the fireplace in the feasting hall! Savory broth welled forth to cover half the floor in a sea of stew!"
  feast_main_stew_flood.0003.someone_got_covered:0 "\n\nThe [stew_sea_gets_covered.Custom('stew_flood_covered_adjective')] [stew_sea_gets_covered.GetTitledFirstName], seated next to the cauldron, was caught by the rushing wave and loudly cursed [stew_sea_gets_covered.GetHerHis] ruined appearance as grease ran down [stew_sea_gets_covered.GetHerHis] face."
@@ -41,7 +39,6 @@
  feast_main_stew_flood.0041.no_blame_placed:0 "We all go home satisfied, leaving our host with reason to be proud. Apart from the servant who overturned the stew cauldron. That was quite a shameful moment."
  feast_main_stew_flood.0041.a:0 "What a good feast."
  feast_main_stew_flood.0042.t:1 "$feast_header$ So ends another feast!"
- feast_main_stew_flood.0042.new_life.t:1 "New Life Festival: So ends another Festival!"
  feast_main_stew_flood.0042.blame_placed:0 "All my guests go home satisfied while I remain, proud of my display of generosity. That said, [stew_sea_blamed.GetTitledFirstName] might carry more shame than satisfaction after overturning the cauldron! Cleaning up will not be cheap."
  feast_main_stew_flood.0042.no_blame_placed:0 "All my guests go home satisfied while I remain, proud of my display of generosity. That said, I might have to do something about that damned servant who overturned the stew cauldron. And cleaning up will not be cheap."
  feast_main_stew_flood.0042.a:0 "I look forward to welcoming you all back!"

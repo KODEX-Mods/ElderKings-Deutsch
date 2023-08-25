@@ -48,13 +48,13 @@
  councillor_court_chaplain_wyrd_religion_empire_possessive:0 "Arch-Wyr's"
  
  councillor_court_chaplain_wyrd_religion_county_female:0 "Wyress"
- councillor_court_chaplain_wyrd_religion_county__female_possessive:0 "Wyress's"
+ councillor_court_chaplain_wyrd_religion_county_female_possessive:0 "Wyress's"
  councillor_court_chaplain_wyrd_religion_duchy_female:0 "Wyress"
- councillor_court_chaplain_wyrd_religion_duchy__female_possessive:0 "Wyress's"
+ councillor_court_chaplain_wyrd_religion_duchy_female_possessive:0 "Wyress's"
  councillor_court_chaplain_wyrd_religion_kingdom_female:0 "Arch-Wyress"
- councillor_court_chaplain_wyrd_religion_kingdom__female_possessive:0 "Arch-Wyress'"
+ councillor_court_chaplain_wyrd_religion_kingdom_female_possessive:0 "Arch-Wyress'"
  councillor_court_chaplain_wyrd_religion_empire_female:0 "Arch-Wyress"
- councillor_court_chaplain_wyrd_religion_empire_female_possessive:0 "Arch-Wyress's"
+ councillor_court_chaplain_wyrd_religion_empire_female_possessive:0 "Arch-Wyress'"
  
  #Bosmer Faith
  councillor_court_chaplain_greenpact_county:0 "Green Spinner"
@@ -62,7 +62,7 @@
  councillor_court_chaplain_greenpact_duchy:0 "Green Keeper"
  councillor_court_chaplain_greenpact_duchy_possessive:0 "Green Keeper's"
  councillor_court_chaplain_greenpact_kingdom:0 "Green Keeper"
- councillor_court_chaplain_greenpact_kingdom_possessive:0 "Green Keeper'"
+ councillor_court_chaplain_greenpact_kingdom_possessive:0 "Green Keeper's"
  councillor_court_chaplain_greenpact_empire:0 "Green Keeper"
  councillor_court_chaplain_greenpact_empire_possessive:0 "Green Keeper's"
  
@@ -77,13 +77,13 @@
  councillor_court_chaplain_tribunal_temple_empire_possessive:0 "Patriarch's"
  
  councillor_court_chaplain_tribunal_temple_county_female:0 "Court Priestess"
- councillor_court_chaplain_tribunal_temple_county__female_possessive:0 "Court Priestess's"
- councillor_court_chaplain_tribunal_temple_duchy_female:0 "Court Priest"
- councillor_court_chaplain_tribunal_temple_duchy__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_tribunal_temple_county_female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_tribunal_temple_duchy_female:0 "Court Priestess"
+ councillor_court_chaplain_tribunal_temple_duchy_female_possessive:0 "Court Priestess's"
  councillor_court_chaplain_tribunal_temple_kingdom_female:0 "Court Priestess"
- councillor_court_chaplain_tribunal_temple_kingdom__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_tribunal_temple_kingdom_female_possessive:0 "Court Priestess's"
  councillor_court_chaplain_tribunal_temple_empire_female:0 "Matriarch"
- councillor_court_chaplain_tribunal_temple_empire__female_possessive:0 "Matriarch's"
+ councillor_court_chaplain_tribunal_temple_empire_female_possessive:0 "Matriarch's"
  
  #Two Moons
  councillor_court_chaplain_twomoonsdance_county:0 "Moon-Priest"
@@ -96,13 +96,13 @@
  councillor_court_chaplain_twomoonsdance_empire_possessive:0 "Moon-Archbishop's"
  
  councillor_court_chaplain_twomoonsdance_county_female:0 "Moon-Priestess"
- councillor_court_chaplain_twomoonsdance_county__female_possessive:0 "Moon-Priestess's"
+ councillor_court_chaplain_twomoonsdance_county_female_possessive:0 "Moon-Priestess's"
  councillor_court_chaplain_twomoonsdance_duchy_female:0 "Moon-Priestess"
- councillor_court_chaplain_twomoonsdance_duchy__female_possessive:0 "Moon-Priestess's"
+ councillor_court_chaplain_twomoonsdance_duchy_female_possessive:0 "Moon-Priestess's"
  councillor_court_chaplain_twomoonsdance_kingdom_female:0 "Moon-Bishop"
- councillor_court_chaplain_twomoonsdance_kingdom__female_possessive:0 "Moon-Bishop's"
+ councillor_court_chaplain_twomoonsdance_kingdom_female_possessive:0 "Moon-Bishop's"
  councillor_court_chaplain_twomoonsdance_empire_female:0 "Moon-Archbishop"
- councillor_court_chaplain_twomoonsdance_empire__female_possessive:0 "Moon-Archbishop's"
+ councillor_court_chaplain_twomoonsdance_empire_female_possessive:0 "Moon-Archbishop's"
  
  #Daedric
  councillor_court_chaplain_daedric_county:0 "Court Priest"
@@ -115,13 +115,13 @@
  councillor_court_chaplain_daedric_empire_possessive:0 "Patriarch's"
  
  councillor_court_chaplain_daedric_county_female:0 "Court Priestess"
- councillor_court_chaplain_daedric_county__female_possessive:0 "Court Priestess's"
- councillor_court_chaplain_daedric_duchy_female:0 "Court Priest"
- councillor_court_chaplain_daedric_duchy__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_daedric_county_female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_daedric_duchy_female:0 "Court Priestess"
+ councillor_court_chaplain_daedric_duchy_female_possessive:0 "Court Priestess's"
  councillor_court_chaplain_daedric_kingdom_female:0 "Court Priestess"
- councillor_court_chaplain_daedric_kingdom__female_possessive:0 "Court Priestess's"
+ councillor_court_chaplain_daedric_kingdom_female_possessive:0 "Court Priestess's"
  councillor_court_chaplain_daedric_empire_female:0 "Matriarch"
- councillor_court_chaplain_daedric_empire__female_possessive:0 "Matriarch's"
+ councillor_court_chaplain_daedric_empire_female_possessive:0 "Matriarch's"
  
  #Lilmothiiti
  councillor_court_chaplain_lilmothiiti_county:0 "Lawspeaker"

@@ -6,7 +6,7 @@
  ek_tenets.0002.titleImpPa:0 "The Impure Bloodline"
  ek_tenets.0002.titleBoth:0 "A Cursed Child"
  ek_tenets.0002.descDef:0 "It seems that [impure_character.GetFirstName] was cursed with unspeakable deformities. The elders are very clear, any imperfect child cannot pretend to be a rightful descendant of the Gods. If we are to keep our Divine parentage pure, [impure_character.GetSheHe] has to be cast aside, and declared impure."
- ek_tenets.0002.descImpPa:0 "The taint of impurity runs deep. Unfortunately for [impure_character.GetFirstName], [impure_character.GetHerHis] parents tainted [impure_character.GetHerHiS] blood by having impure lineage themselves. The elders have declared [impure_character.GetHerHim] impure."
+ ek_tenets.0002.descImpPa:0 "The taint of impurity runs deep. Unfortunately for [impure_character.GetFirstName], [impure_character.GetHerHis] parents tainted [impure_character.GetHerHis] blood by having impure lineage themselves. The elders have declared [impure_character.GetHerHim] impure."
  ek_tenets.0002.descBoth:0 "It seems that [impure_character.GetFirstName] was determined to be cursed. Born from impure parents, and tainted with untold deformities, it is said the elders themselves could barely look at [impure_character.GetHerHim] before declaring [impure_character.GetHerHim] impure."
  ek_tenets.0002.optA:0 "I am sorry, my child..."
  ###

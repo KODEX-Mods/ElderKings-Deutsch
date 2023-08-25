@@ -1,3 +1,3 @@
 ﻿l_german:
- SINGLE_PLAYER:1 "Singleplayer"
- MULTI_PLAYER:1 "Multiplayer"
+ SINGLE_PLAYER:0 "Singleplayer"
+ MULTI_PLAYER:0 "Multiplayer"

@@ -1,2 +1,2 @@
 ﻿l_german:
- VERSION_SHORT:0 "[GetGameVersionInfoShort], Prüfsumme: [GetMPChecksum] $MODIFIED_CHECKSUM$\nElder Kings II - $EK_VERSION$"
+ VERSION_SHORT:0 "[GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$\nElder Kings II - $EK_VERSION$"

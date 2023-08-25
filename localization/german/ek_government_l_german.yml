@@ -1,0 +1,5 @@
+﻿l_german:
+ government_is_autocracy:0 "[government|E] type is [GetGovernment( 'autocracy_government' ).GetName]"
+ government_is_hierocracy:0 "[government|E] type is [GetGovernment( 'hierocracy_government' ).GetName]"
+ government_is_praxis:0 "[government|E] type is [GetGovernment( 'praxis_government' ).GetName]"
+ government_is_pirate:0 "[government|E] type is [GetGovernment( 'pirate_government' ).GetName]"

@@ -5,7 +5,7 @@
  trait_p_dv_akatosh:0 "Follower of [ROOT.Char.Custom('GetDvAkatoshName')]"
  trait_p_dv_akatosh_base:0 "Follower of Akatosh"
  trait_p_dv_akatosh_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_dv_akatosh_desc' )]"
- trait_p_dv_akatosh_desc:0 "A follower of Akatosh. Also called Auriel, Alkosh and Aka."
+ trait_p_dv_akatosh_desc:0 "A follower of Akatosh"
  trait_p_dv_akatosh_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvAkatoshName')]."
 
  trait_p_dv_arkay:0 "Follower of [ROOT.Char.Custom('GetDvArkayName')]"
@@ -228,11 +228,11 @@
  trait_p_da_lost_king_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Lost King, who travels and rules even as his people are not with him."
  
  # Atmoran Totems
- trait_p_at_hawk:0 "Follower of [ROOT.Char.Custom('GetDvKynarethName')]"
+ trait_p_at_hawk:0 "Follower of [ROOT.Char.Custom('GetAtHawkName')]"
  trait_p_at_hawk_base:0 "Follower of the Hawk"
  trait_p_at_hawk_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_hawk_desc' )]"
  trait_p_at_hawk_desc:0 "A follower of the Hawk"
- trait_p_at_hawk_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvKynarethName')]."
+ trait_p_at_hawk_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtHawkName')]."
  ##the noble Hawk, who rules the skies and flies with the wind.
  
  trait_p_at_wolf:0 "Follower of the Wolf"
@@ -241,11 +241,11 @@
  trait_p_at_wolf_desc:0 "A follower of the Wolf"
  trait_p_at_wolf_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the motherly Wolf, who fights with the pack to protect her children and her home."
  
- trait_p_at_snake:0 "Follower of [ROOT.Char.Custom('GetDvArkayName')]"
+ trait_p_at_snake:0 "Follower of [ROOT.Char.Custom('GetAtSnakeName')]"
  trait_p_at_snake_base:0 "Follower of the Snake"
  trait_p_at_snake_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_snake_desc' )]"
  trait_p_at_snake_desc:0 "A follower of the Snake"
- trait_p_at_snake_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvArkayName')]."
+ trait_p_at_snake_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtSnakeName')]."
  ##the cunning Snake, who slithers on the ground and hides from greater beasts.
  
  trait_p_at_moth:0 "Follower of the Moth"
@@ -254,40 +254,40 @@
  trait_p_at_moth_desc:0 "A follower of the Moth"
  trait_p_at_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the knowledgeable Moth, who helps us navigate through the fabric of the world."
  
- trait_p_at_owl:0 "Follower of [ROOT.Char.Custom('GetDvJulianosName')]"
+ trait_p_at_owl:0 "Follower of [ROOT.Char.Custom('GetAtOwlName')]"
  trait_p_at_owl_base:0 "Follower of the Owl"
  trait_p_at_owl_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_owl_desc' )]"
  trait_p_at_owl_desc:0 "A follower of the Owl"
- trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvJulianosName')]."
+ trait_p_at_owl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtOwlName')]."
  ## is a follower of the wise Owl, who guards the old magical arts.
  
- trait_p_at_whale:0 "Follower of [ROOT.Char.Custom('GetDvStendarrName')]"
+ trait_p_at_whale:0 "Follower of [ROOT.Char.Custom('GetAtWhaleName')]"
  trait_p_at_whale_base:0 "Follower of the Whale"
  trait_p_at_whale_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_whale_desc' )]"
  trait_p_at_whale_desc:0 "A follower of the Whale"
- trait_p_at_whale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvStendarrName')]."
+ trait_p_at_whale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtWhaleName')]."
  TRAIT_FLAG_DESC_more_captives_from_battles:0 "Higher chance of capturing [prisoners|E] in [battle|E]"
  ##the long-lived Whale, who guides our souls to the afterlife.
  
- trait_p_at_bear:0 "Follower of [ROOT.Char.Custom('GetDvZenitharName')]"
+ trait_p_at_bear:0 "Follower of [ROOT.Char.Custom('GetAtBearName')]"
  trait_p_at_bear_base:0 "Follower of the Bear"
  trait_p_at_bear_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_bear_desc' )]"
  trait_p_at_bear_desc:0 "A follower of the Bear"
- trait_p_at_bear_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower [ROOT.Char.Custom('GetDvZenitharName')]."
+ trait_p_at_bear_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower [ROOT.Char.Custom('GetAtBearName')]."
  ##is a follower of the mighty Bear, feared and respected by everyone."
  
- trait_p_at_fox:0 "Follower of [ROOT.Char.Custom('GetDvShezarrName')]"
+ trait_p_at_fox:0 "Follower of [ROOT.Char.Custom('GetAtFoxName')]"
  trait_p_at_fox_base:0 "Follower of the Fox"
  trait_p_at_fox_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_fox_desc' )]"
  trait_p_at_fox_desc:0 "A follower of the Fox"
- trait_p_at_fox_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvShezarrName')]."
+ trait_p_at_fox_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtFoxName')]."
  ##is a follower of the small Fox, who while looking gentle and innocent knows to be fierce against his enemies.
  
- trait_p_at_dragon:0 "Follower of [ROOT.Char.Custom('GetDvAkatoshName')]"
+ trait_p_at_dragon:0 "Follower of [ROOT.Char.Custom('GetAtDragonName')]"
  trait_p_at_dragon_base:0 "Follower of the Dragon"
  trait_p_at_dragon_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_at_dragon_desc' )]"
  trait_p_at_dragon_desc:0 "A follower of the Dragon"
- trait_p_at_dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetDvAkatoshName')]."
+ trait_p_at_dragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of [ROOT.Char.Custom('GetAtDragonName')]."
  ##the great Dragon, who first came into this world and is its rightful watcher and protector.
  
  # Elemental Gods
@@ -357,6 +357,55 @@
  trait_p_ch_attrebus_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_ch_attrebus_desc' )]"
  trait_p_ch_attrebus_desc:0 "A follower of Attrebus"
  trait_p_ch_attrebus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Attrebus, who rallied Tamriel and destroyed the remnants of the Akaviri Potentate, freeing Cyrodiil and Tamriel from the Akaviri rule."
+
+ # Thousand Cults
+ trait_p_tc_aka:0 "Cultist of Aka"
+ trait_p_tc_aka_base:0 "Cultist of Aka"
+ trait_p_tc_aka_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_aka_desc' )]"
+ trait_p_tc_aka_desc:0 "A member of the Cult of Aka"
+ trait_p_tc_aka_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of Aka."
+
+ trait_p_tc_missing:0 "Cultist of the Missing"
+ trait_p_tc_missing_base:0 "Cultist of the Missing"
+ trait_p_tc_missing_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_missing_desc' )]"
+ trait_p_tc_missing_desc:0 "A member of the Cult of the Missing"
+ trait_p_tc_missing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of the Missing."
+
+ trait_p_tc_land:0 "Cultist of the Land"
+ trait_p_tc_land_base:0 "Cultist of the Land"
+ trait_p_tc_land_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_land_desc' )]"
+ trait_p_tc_land_desc:0 "A member of the Cult of the Land"
+ trait_p_tc_land_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of the Land."
+
+ trait_p_tc_moth:0 "Cultist of the Ancestor Moth"
+ trait_p_tc_moth_base:0 "Cultist of the Ancestor Moth"
+ trait_p_tc_moth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_moth_desc' )]"
+ trait_p_tc_moth_desc:0 "A member of the Cult of the Ancestor Moth"
+ trait_p_tc_moth_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of the Ancestor Moth."
+
+ trait_p_tc_beasts:0 "Cultist of God-Beasts"
+ trait_p_tc_beasts_base:0 "Cultist of God-Beasts"
+ trait_p_tc_beasts_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_beasts_desc' )]"
+ trait_p_tc_beasts_desc:0 "A member of the Cult of God-Beasts"
+ trait_p_tc_beasts_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of God-Beasts."
+
+ trait_p_tc_love:0 "Cultist of Love"
+ trait_p_tc_love_base:0 "Cultist of Love"
+ trait_p_tc_love_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_love_desc' )]"
+ trait_p_tc_love_desc:0 "A member of the Cult of Love"
+ trait_p_tc_love_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of Love."
+
+ trait_p_tc_guilds:0 "Cultist of Guilds"
+ trait_p_tc_guilds_base:0 "Cultist of Guilds"
+ trait_p_tc_guilds_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_guilds_desc' )]"
+ trait_p_tc_guilds_desc:0 "A member of the Cult of Guilds"
+ trait_p_tc_guilds_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of Guilds."
+
+ trait_p_tc_heavens:0 "Cultist of the Heavens"
+ trait_p_tc_heavens_base:0 "Cultist of the Heavens"
+ trait_p_tc_heavens_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_tc_heavens_desc' )]"
+ trait_p_tc_heavens_desc:0 "A member of the Cult of the Heavens"
+ trait_p_tc_heavens_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the Cult of the Heavens."
 
  #Yokudan Pantheon
  trait_p_yp_diagna:0 "Follower of Diagna"
@@ -469,12 +518,6 @@
  trait_p_vl_seryn_desc:0 "A follower of Saint Seryn"
  trait_p_vl_seryn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Saint Seryn the Merciful."
 
- trait_p_vl_felms:0 "Follower of St. Felms"
- trait_p_vl_felms_base:0 "Follower of Saint Felms"
- trait_p_vl_felms_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_felms_desc' )]"
- trait_p_vl_felms_desc:0 "A follower of Saint Felms"
- trait_p_vl_felms_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Saint Felms the Bold."
-
  trait_p_vl_veloth:0 "Follower of St. Veloth"
  trait_p_vl_veloth_base:0 "Follower of Saint Veloth"
  trait_p_vl_veloth_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_veloth_desc' )]"
@@ -488,13 +531,129 @@
  trait_p_vl_vorys_desc:0 "A follower of Saint Vorys"
  trait_p_vl_vorys_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Saint Vorys the Immolant."
 
+ trait_p_vl_llothis:0 "Follower of St. Llothis"
+ trait_p_vl_llothis_base:0 "Follower of Saint Llothis"
+ trait_p_vl_llothis_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_vl_llothis_desc' )]"
+ trait_p_vl_llothis_desc:0 "A follower of Saint Llothis"
+ trait_p_vl_llothis_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Saint Llothis the Pious."
+
+#Khajiit
  trait_p_kj_baandar:0 "Follower of Baan Dar"
  trait_p_kj_baandar_base:0 "Follower of Baan Dar"
  trait_p_kj_baandar_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_kj_baandar_desc' )]"
  trait_p_kj_baandar_desc:0 "A follower of Baan Dar"
  trait_p_kj_baandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Baan Dar the Bandit God."
 
- trait_witch_group:0 "Witches"
+#Forgotten Gods
+ trait_p_fg_notorgo:0 "Follower of Notorgo"
+ trait_p_fg_notorgo_base:0 "Follower of Notorgo"
+ trait_p_fg_notorgo_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_notorgo_desc' )]"
+ trait_p_fg_notorgo_desc:0 "A follower of Notorgo"
+ trait_p_fg_notorgo_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Notorgo the Messenger God."
+
+ trait_p_fg_raen:0 "Follower of Raen"
+ trait_p_fg_raen_base:0 "Follower of Raen"
+ trait_p_fg_raen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_raen_desc' )]"
+ trait_p_fg_raen_desc:0 "A follower of Raen"
+ trait_p_fg_raen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Raen, God of Agriculture."
+
+ trait_p_fg_vigryl:0 "Follower of Vigryl"
+ trait_p_fg_vigryl_base:0 "Follower of Vigryl"
+ trait_p_fg_vigryl_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_vigryl_desc' )]"
+ trait_p_fg_vigryl_desc:0 "A follower of Vigryl"
+ trait_p_fg_vigryl_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Vigryl the Sea God."
+
+ trait_p_fg_shandar:0 "Follower of Shandar"
+ trait_p_fg_shandar_base:0 "Follower of Shandar"
+ trait_p_fg_shandar_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_shandar_desc' )]"
+ trait_p_fg_shandar_desc:0 "A follower of Shandar"
+ trait_p_fg_shandar_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Shandar the Warrior God."
+
+ trait_p_fg_jhimsei:0 "Follower of Jhim Sei"
+ trait_p_fg_jhimsei_base:0 "Follower of Jhim Sei"
+ trait_p_fg_jhimsei_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_jhimsei_desc' )]"
+ trait_p_fg_jhimsei_desc:0 "A follower of Jhim Sei"
+ trait_p_fg_jhimsei_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Jhim Sei, God of Music."
+
+ trait_p_fg_druaaga:0 "Follower of Druaaga"
+ trait_p_fg_druaaga_base:0 "Follower of Druaaga"
+ trait_p_fg_druaaga_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_p_fg_druaaga_desc' )]"
+ trait_p_fg_druaaga_desc:0 "A follower of Druaaga"
+ trait_p_fg_druaaga_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Druaaga the Flower Goddess."
+
+ trait_p_fg_qolwen:0 "Follower of Q'Olwen"
+ trait_p_fg_qolwen_base:0 "Follower of Q'Olwen"
+ trait_p_fg_qolwen_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_qolwen_desc' )]"
+ trait_p_fg_qolwen_desc:0 "A follower of Q'Olwen"
+ trait_p_fg_qolwen_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Q'Olwen, Goddess of Knowledge."
+
+ trait_p_fg_sai:0 "Follower of Sai"
+ trait_p_fg_sai_base:0 "Follower of Sai"
+ trait_p_fg_sai_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_sai_desc' )]"
+ trait_p_fg_sai_desc:0 "A follower of Sai"
+ trait_p_fg_sai_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Sai the Lucky."
+
+ trait_p_fg_ebonarm:0 "Follower of Ebonarm"
+ trait_p_fg_ebonarm_base:0 "Follower of Ebonarm"
+ trait_p_fg_ebonarm_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_ebonarm_desc' )]"
+ trait_p_fg_ebonarm_desc:0 "A follower of Ebonarm"
+ trait_p_fg_ebonarm_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Ebonarm the Black Knight."
+
+ trait_p_fg_ius:0 "Follower of Ius"
+ trait_p_fg_ius_base:0 "Follower of Ius"
+ trait_p_fg_ius_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_fg_ius_desc' )]"
+ trait_p_fg_ius_desc:0 "A follower of Ius"
+ trait_p_fg_ius_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Ius the Extremely Agitated."
+
+ trait_p_mg_mnemoli:0 "Follower of Mnemo-Li"
+ trait_p_mg_mnemoli_base:0 "Follower of Mnemo-Li"
+ trait_p_mg_mnemoli_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_mg_mnemoli_desc' )]"
+ trait_p_mg_mnemoli_desc:0 "A follower of Mnemo-Li, the Blue Coruscation"
+ trait_p_mg_mnemoli_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Mnemo-Li, the Blue Coruscation."
+
+ trait_p_mg_xerolyg:0 "Follower of Xero-Lyg"
+ trait_p_mg_xerolyg_base:0 "Follower of Xero-Lyg"
+ trait_p_mg_xerolyg_null:0 "[SelectLocalization( GetVariableSystem.HasValue( 'faith_view_tabs', 'patrons' ), '', 'trait_p_mg_xerolyg_desc' )]"
+ trait_p_mg_xerolyg_desc:0 "A follower of Xero-Lyg, the Red Coruscation"
+ trait_p_mg_xerolyg_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Xero-Lyg, the Red Coruscation."
+
+ trait_p_mg_meridia:0 "Follower of Merid-Nunda"
+ trait_p_mg_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of  Merid-Nunda, the Yellow Coruscation."
+
+ trait_p_mg_magnus:0 "Follower of Magnus"
+ trait_p_mg_magnus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Magnus, the Architect."
+
+ trait_p_ta_meridia:0 "Follower of Merid-Nunda"
+ trait_p_ta_meridia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Merid-Nunda, Regent of Majesty."
+
+ trait_p_ta_molag:0 "Follower of Mola Gbal"
+ trait_p_ta_molag_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Mola Gbal, Regent of Domination."
+
+ trait_p_ta_mehrunes:0 "Follower of Mehrunes"
+ trait_p_ta_mehrunes_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of Mehrunes, Regent of Conquest."
+
+ trait_p_ta_hircine:0 "Follower of the Hunter"
+ trait_p_ta_hircine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Hunter."
+
+ trait_p_ta_sanguine:0 "Follower of the Cupbearer"
+ trait_p_ta_sanguine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Cupbearer."
+
+ trait_p_ta_nocturnal:0 "Follower of the Spymaster"
+ trait_p_ta_nocturnal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Spymaster."
+
+ trait_p_ta_mephala:0 "Follower of the Assassin"
+ trait_p_ta_mephala_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Assassin."
+
+ trait_p_ta_vaermina:0 "Follower of the Nightmare"
+ trait_p_ta_vaermina_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Nightmare."
+
+ trait_p_ta_namira:0 "Follower of the Horror"
+ trait_p_ta_namira_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Horror."
+
+ trait_p_ta_peryite:0 "Follower of the Taskmaster"
+ trait_p_ta_peryite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a follower of the Taskmaster."
+
+#Misc
  trait_birthsign:0 "Birthsign"
 
 

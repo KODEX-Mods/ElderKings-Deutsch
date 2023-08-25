@@ -35,7 +35,6 @@
  ek_religious_interactions.0201.tsae3.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.tsae4.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.stew.desc:0 "" #PLACEHOLDER
- ek_religious_interactions.0201.intrigue.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.prowess.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.arcana.desc:0 "" #PLACEHOLDER
  ek_religious_interactions.0201.brave.desc:0 "My blood cools, and slows to a comfortable pace. [victim_char.GetTitledFirstName] was brave to the end, and [victim_char.GetHerHis] courage refuses to die with [victim_char.GetHerHim|U]. I feel the same courage running through my veins, all the way into my heart."
@@ -152,7 +151,7 @@
  ek_religious_decision.0601.t:0 "The Eternal Nightmare"
  ek_religious_decision.0601.desc_beginning:0 "The rituals have been performed, the candles have been extinguished. It is now time to fall asleep, and wait for the Nightmare to arrive..."
  ek_religious_decision.0601.desc.sacrifice_self:0 "\n\nYou soon emerge in a poorly-lit cave, in what seems to be a hidden altar to a foreign deity. As your consciousness starts to come back, you hear a dozen of other cultists chanting, and feel the dagger in your hand. As you walk towards the central altar, you see that the sacrifice is ready. You raise your hand before removing the victim's hood. As you see your own visage on the sacrifice's face, you lower your dagger and slit your own throat."
- ek_religious_decision.0601.desc.drowning:0 "\n\nYou soon emerge in a poorly-lit cave, in what seems to be a hidden altar to a foreign deity. As your consciousness starts to come back, you hear a dozen of other cultists chanting, and feel the dagger in your hand. As you walk towards the central altar, you see that the sacrifice is ready. You raise your hand before removing the victim's hood. As you see your own visage on the sacrifice's face, you lower your dagger and slit your own throat."
+ ek_religious_decision.0601.desc.drowning:0 "\n\nIn mere instants you are surrounded by infinite waters. No amount of swimming can get you closer to the surface, while you sink deeper into the sea. The pressure crushes your limbs as your lungs are filled with seawater. Before you lose consciousness you barely feel the last bubbles of air travel along your face..."
  ek_religious_decision.0601.desc.triumph:0 "\n\nDespite the horrors that had to face, you triumphed and were able to defeat the nightmare. While your sheets are full of sweat and you can still feel a shiver down your spine, you quickly calm down and realize that the divine rewarded you for your victory."
  ek_religious_decision.0601.desc.defeat:0 "\n\nAs darkness surrounds you, you wish for everything around you to stop. You try screaming, but your lungs feel empty as you cannot stop the events around you from happening. You finally awake what seems an eternity later, still trying to scream."
  ek_religious_decision.0601.a:0 "Is it finally over?"
@@ -192,10 +191,10 @@
  ek_religious_decision.1004.apprentice:0 "Today the Apprentice shall serve me at the forge of destiny."
  ek_religious_decision.1004.atronach:0 "Today the Atronach shall aid me with my appointed burden."
  ek_religious_decision.1004.ritual:0 "Today the Ritual shall speed me on my star-patterned path."
- ek_religious_decision.1004.thief:0 "Today the Thief shall guide my steps on the road to destiny."
- ek_religious_decision.1004.lover:0 "Today the Tower shall prove a stout refuge in time of need."
+ ek_religious_decision.1004.thief:0 "Today the Thief shall guide my careful steps on the road to destiny."
+ ek_religious_decision.1004.lover:0 "Today the Lover shall embrace me and strengthen my will."
  ek_religious_decision.1004.shadow:0 "Today the Shadow shall hide me from destiny's cunning hounds."
- ek_religious_decision.1004.tower:0 "Today the Thief shall guide my steps on the road to destiny."
+ ek_religious_decision.1004.tower:0 "Today the Tower shall prove a stout refuge in time of need."
  # Remove your bad coping traits
  ek_religious_decision.1010.t:0 "Divine Meditation - Overcome our Weakness"
  ek_religious_decision.1010.desc:0 "While the divine commands us to be at peace with ourself, I have slipped several times and took a few ways to cope with the hardships of life along the way. But I am not ashamed, for as long as I try to do and be better, the divine will watch over me and protect me."

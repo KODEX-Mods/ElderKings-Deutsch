@@ -1,6 +1,6 @@
 ﻿l_german:
  ek_learn_liturgical_language_outcome.1000.t:0 "$ek_learn_liturgical_language$: Success!"
- ek_learn_liturgical_language_outcome.1000.desc:0 "After lots of hard work, my knowledge of the language used by the priests and written down in our sacred texts has no more secrets to me!\n\nWhile most of the common folk painfully tries to recite the tenants of our faiths, I am able to understand them in a way few can.\n\nAs I spoke with some priests fluently, I see that they now hold a renewed respect for me and my rule..."
+ ek_learn_liturgical_language_outcome.1000.desc:0 "After lots of hard work, my knowledge of the language used by the priests and written down in our sacred texts has no more secrets to me!\n\nWhile most of the common folk painfully tries to recite the tenets of our faiths, I am able to understand them in a way few can.\n\nAs I spoke with some priests fluently, I see that they now hold a renewed respect for me and my rule..."
  ek_learn_liturgical_language_outcome.1000.a:0 "I feel accomplished!"
  
  ek_learn_liturgical_language_outcome.2000.t:0 "$ek_learn_liturgical_language$: Failure"

@@ -8,6 +8,10 @@
  dunmer_unit_gfx:0 "Dunmeri"
  morc_unit_gfx:0 "Orcish"
  ek_dremora_unit_gfx:0 "Dremora"
+ khajiit_unit_gfx:0 "Khajiiti"
+ argonian_unit_gfx:0 "Argonian"
+ altmer_unit_gfx:0 "Altmeri"
+ 
 
  northern_building_gfx:0 "Northern"
  ek_gah_julan_building_gfx:0 "Gah-Julan"
@@ -31,6 +35,7 @@
  ek_breton_building_gfx:0 "Breton"
  ek_cyrodilic_building_gfx:0 "Cyrodilic"
  ek_nordic_building_gfx:0 "Nordic"
+ ek_westholder_building_gfx:0 "Westholder"
  ek_akaviri_building_gfx:0 "Akaviri"
  ek_colovian_building_gfx:0 "Colovian"
  ek_heartlander_building_gfx:0 "Heartlander"
@@ -41,7 +46,6 @@
  ek_nedic_keptu_clothing_gfx:0 "Keptu"
  ek_redguard_building_gfx:0 "Redguard"
  ek_orc_clothing_gfx:0 "Orcish"
- ek_dremora_clothing_gfx:0 "Dremora"
  ek_ashlander_clothing_gfx:0 "Ashlander"
  ek_gah_julan_clothing_gfx:0 "Gah-Julan"
  ek_dunmer_clothing_gfx:0 "Dunmeri"
