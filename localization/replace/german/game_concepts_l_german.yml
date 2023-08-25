@@ -1,7 +1,7 @@
 ﻿l_german:
  #Vanilla Gold to TES Drakes
- game_concept_gold:0 "Septime"
- game_concept_gold_desc:0 "'Septime' repräsentieren euer Währung; euer Reichtum. Es kann für die verschiedensten Dinge ausgegeben werden, vor allem das bauen von [buildings|E], Bezahlung von [regiments|E] oder das erschaffen von [titles|E]."
+ game_concept_gold:0 "Golddraken"
+ game_concept_gold_desc:0 "'Golddraken' repräsentieren euer Währung; euer Reichtum. Es kann für die verschiedensten Dinge ausgegeben werden, vor allem das bauen von [buildings|E], Bezahlung von [regiments|E] oder das erschaffen von [titles|E]."
  game_concept_gold_i:0 "@gold_icon!"
  
  game_concept_raid_desc:0 "[armies|E] können als $game_concept_raiders$ an [Concept('rally_points', 'Sammelpunkten')|E] ausgehoben werden. $game_concept_raiders$ können sich durch benachbarte Lande bewegen und sie für [gold|E] plündern.\n\nFür einen $game_concept_raid$ muss eine Überfallarmee in einem [holding|E] Halt machen, das einem fremden [ruler|E] gehört, und entscheiden, den Überfall zu beginnen: Sie steckt dann dort eine Weile fest, während der sie Gold aus dem Besitztum holt.\n\nDas Gold führt die Armee mit sich, und es kommt erst in die Schatzkammer, wenn sie nach Hause zurückkehrt. Besiegt Ihr eine Überfallarmee, die Gold mit sich führt, nehmt Ihr es ihr ab und sie kann eine Zeit lang keinen Überfall durchführen.\n\nNur bestimmte Herrscher können einen $game_concept_raid$ durchführen, darunter vor allem [Concept('tribe', 'Stammes')|E]-Herrscher."
@@ -35,7 +35,7 @@
  game_concept_temporal_head_of_faith_desc:0 "Ein [GetFaithDoctrine('doctrine_temporal_head').GetBaseName]es [head_of_faith|E] fungiert als gewöhnlicher [ruler|E], wobei der $game_concept_head_of_faith$-[title|E] vernichtet wird, falls er sein gesamtes Land verliert.\n\nSollten die [doctrines|E] des [Concept('faith', 'Glaubens')|E] [great_holy_wars|E] erlauben, werden es [great_holy_war_directed|E] sein #weak (wie etwa Dschihade)#!."
 
 # Culture Era replacements
- game_concept_tribal_desc:0 "Reiche aus der Ersten Ära haben eine eingeschränkte [development|E] der Gemeinden, können keine weiteren [holdings|E] errichten, nur die [innovations|E] der Ersten-Ära entdecken und ihr [succession_law|E] nicht ändern.\n\nSie können allerdings [prestige|E] anstelle von [gold|E] einsetzen, um ihr Reich auszubauen und [men_at_arms|E] anzuwerben, und sie haben Zugriff auf mehr [casus_belli|E] als [Concept('feudal', 'Feudale')|E] Reiche. Armeen die nicht aus der Ersten-Ära kommen erleiden einen [supply_limit|E]-Malus in feindlichen Gebieten."
+ game_concept_tribal_desc:0 "Reiche auf dem Stand der ersten Ära haben eine eingeschränkte [development|E] der Gemeinden, können keine weiteren [holdings|E] errichten, nur die [innovations|E] der Ersten-Ära entdecken und ihr [succession_law|E] nicht ändern.\n\nSie können allerdings [prestige|E] anstelle von [gold|E] einsetzen, um ihr Reich auszubauen und [men_at_arms|E] anzuwerben, und sie haben Zugriff auf mehr [casus_belli|E] als [Concept('feudal', 'Feudale')|E] Reiche. Armeen die nicht aus der Ersten-Ära kommen erleiden einen [supply_limit|E]-Malus in feindlichen Gebieten."
 
  game_concept_era_desc:1 "[innovations|E] können nur entdeckt werden, wenn die [culture|E] die nötige Epoche erreicht hat. Die nächste Epoche kann frühestens ab einem bestimmten Jahr beginnen und mindestens #V 50 %#! der vorherigen Epoche müssen erforscht werden sein.\n\nHerrscher mit [tribal_government|E] können nur Innovationen von der Ersten Ära nutzen."
 
@@ -45,7 +45,7 @@
  game_concept_county_desc:0 "$game_concept_county$ ist der [title|E] unter [duchy|E] und über [barony|E].\n\nDer Titel beinhaltet immer den [county_capital|E] der Grafschaft sowie die [de_jure|E]-Rechte an allen Baronien in ihr. Grafschaften werden im Spiel als Verwaltungseinheit auch als „Gemeinde“ bezeichnet.\n\nGrafschaften haben immer [holders|E], da Gemeindesitze nicht zerstört werden können."
 
 # Empire to High Kingdom replacement
- game_concept_title_desc:1 "Ein $game_concept_title$ ist de facto ein Beleg für Landbesitz.\n\nDie kleinste Landeinheit auf der Karte ist die [barony|E]. Baronien sind in größeren Gebieten gruppiert, die [counties|E] heißen. Grafschaften gehören [de_jure|E] zu einem [duchy|E], Herzogtümer zu einem [kingdom|E] und Königreiche zu einem [empire|E].\n\nHerzogtümer, Königreiche und Großkönigreich haben nicht immer einen [holder|E], doch ihre Titel werden von einem Herrscher [created|E], der einen ausreichenden Teil des entsprechenden Gebiets kontrolliert."
+ game_concept_title_desc:1 "Ein $game_concept_title$ ist de facto ein Beleg für Landbesitz.\n\nDie kleinste Landeinheit auf der Karte ist die [barony|E]. Baronien sind in größeren Gebieten gruppiert, die [counties|E] heißen. Grafschaften gehören [de_jure|E] zu einem [duchy|E], Herzogtümer zu einem [kingdom|E] und Königreiche zu einem [empire|E].\n\nHerzogtümer, Königreiche und Großkönigreiche haben nicht immer einen [holder|E], doch ihre Titel werden von einem Herrscher [created|E], der einen ausreichenden Teil des entsprechenden Gebiets kontrolliert."
 
  game_concept_empire:0 "Großkönigreich"
  game_concept_empires:0 "Großkönigreiche"
