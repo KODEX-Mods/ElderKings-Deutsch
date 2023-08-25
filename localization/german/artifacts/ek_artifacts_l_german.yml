@@ -1,6 +1,6 @@
 ﻿l_german: 
- artifact_headhunter_trophy_of_the_enemy_name:0 "Head of [victim_knight.GetFirstNameNoTooltip]"
- artifact_headhunter_trophy_of_the_enemy_description:0 "This head was taken by [owner.GetTitledFirstName] after killing [victim_knight.GetTitledFirstName]."
+ artifact_headhunter_trophy_of_the_enemy_name:0 "Haupt von [victim_knight.GetFirstNameNoTooltip]"
+ artifact_headhunter_trophy_of_the_enemy_description:0 "Dieser Kopf wurde von [owner.GetTitledFirstName] nach der Tötung [victim_knight.GetTitledFirstName]s abgeschlagen."
 
- artifact_torture_trophy_of_victim_name:0 "Trophy from [recipient.GetTitledFirstNameNoTooltip]"
- artifact_torture_trophy_of_victim_desc:0 "This... trophy was taken by [owner.GetTitledFirstName] during terrible torture of [recipient.GetTitledFirstName]"
+ artifact_torture_trophy_of_victim_name:0 "Trophäe von [recipient.GetTitledFirstNameNoTooltip]"
+ artifact_torture_trophy_of_victim_desc:0 "Diese... Trophäe wurde während der schrecklichen Tortur von [recipient.GetTitledFirstName] durch [owner.GetTitledFirstName] erschaffen."
