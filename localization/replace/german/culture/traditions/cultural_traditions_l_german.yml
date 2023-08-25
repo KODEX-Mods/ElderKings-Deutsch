@@ -7,31 +7,31 @@
 
  tradition_things_name:1 "Ting-Meet" #Not loccing this cause deeply linked to a Vanilla culture
  
- tradition_saharan_nomads_name:0 "Alik'r Nomaden"
- tradition_saharan_nomads_desc:1 "Diese Kultur ist stark mit der Alik'r Wüste vertraut, welche seit Jahrhunderten, die Iliac Küste mit den sub-Alik'r Königreich von der Hubalajad Küste verbindet."
+ tradition_saharan_nomads_name:0 "Alik'r-Nomaden"
+ tradition_saharan_nomads_desc:1 "Diese Kultur ist stark mit der Alik'r-Wüste vertraut, welche seit Jahrhunderten die Iliac-Bucht mit dem Sub-Alik'r-Königreich von Hubalajads Bucht verbindet."
  tradition_himalayan_settlers_name:0 "Bergsiedler"
 
  tradition_desert_ribat_name:0 "Rückzugsorte in der Wüste"
- tradition_desert_ribat_desc:0 "Diese Kultur hat die Tradition mit befestigten Rückzugsorten in der Wüste, wo sie in Verbindung mit dem offenen Himmel und dem Sand leben können. Dieser Lebensstil bringt fähige Wüstenkrieger hervor uns zieht Mystiker an."
+ tradition_desert_ribat_desc:0 "Diese Kultur pflegt eine Tradition befestigter Wüstenrückzugsorte, in denen die Frommen in Verbindung mit dem offenen Himmel und dem Sand leben können. Dieser Lebensstil bringt fähige und fromme Wüstenkrieger hervor und zieht Mystiker an."
  
  tradition_spartan_name:0 "Abgehärtet"
  
- tradition_polders_name:0 "Rückgewinnung von Land"
+ tradition_polders_name:0 "Urbarmachung von Land"
  
- culture_parameter_not_tribal_raiding_malus:0 "Bei einer Rückkehr von einem [raid|E] von, nicht-[tribal|E] und nicht-[pirate|E] Chrakteren #EMP verlieren#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|E] für jede abgelieferte [raid_loot|E] \n#F Charaktere mit den [GetPerk('raider_perk').GetName(GetPlayer)] [perk|E] bekommen keine Negativen Effekte#!"
+ culture_parameter_not_tribal_raiding_malus:0 "Bei einer Rückkehr von einem [raid|E] von nicht-[tribal|E] und nicht-[pirate|E] Charakteren #EMP verlieren#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|E] für jede abgelieferte [raid_loot|E] \n#F Charaktere mit dem [GetPerk('raider_perk').GetName(GetPlayer)] [perk|E] erhalten keine negativen Effekte#!"
 
- tradition_roman_legacy_name:1 "Kaiseliches Erbe"
- tradition_roman_legacy_desc:1 "Die Militärische Organisation des Cyrodiilischen Kaiserreichs ist immer noch in dieser Kultur verankert. Eine professionelle Armee wird immer noch gegenüber erhobenen Truppen bevorzugt."
+ tradition_roman_legacy_name:1 "Kaiserliches Erbe"
+ tradition_roman_legacy_desc:1 "Die militärische Organisation des Cyrodiilischen Kaiserreichs ist immer noch in dieser Kultur verankert. Eine professionelle Armee wird immer noch gegenüber Aufgeboten bevorzugt."
  
- tradition_nubian_warrior_queens_name:0 "Kriegerinnen"
- tradition_nubian_warrior_queens_desc:0 "Die Personen die in Akavir leben gedenken an denn Kriergerinnen die einst Konigreiche in ganz Tsakara gründeten. Unsere Nachbarn mögen auf die Überlegenheit der Männder pochen, aber unsere Blutlinien gehen bis zu unseren Müttern, und der Kriegschrei der mächtigen Tsaesci Kriegerinnen schickt jeden "Mann" nach Hause."
+ tradition_nubian_warrior_queens_name:0 "Kriegerköniginnen"
+ tradition_nubian_warrior_queens_desc:0 "Jene, die in Akavir leben, erinnern sich gut an die großen Kriegerköniginnen, die einst Königreiche in ganz Tsakara schmiedeten. Unsere Nachbarn mögen auf der Überlegenheit der Männer bestehen, aber wir verfolgen unsere Blutlinien bis zu unseren Müttern, und der Schlachtruf der mächtigen Tsaesci-Kriegerinnen lässt jeden "Mann" die Flucht ergreifen."
 
  # EK Terrain
- dry_percentage_desc:0 "Die Kultur [culture|E] hat keine #V 30%#! auf seine [counties|E] in Wüsten, Wüstenhügeln oder Trockengebiete [terrain|E]"
- culture_in_dryland_desc:0 "Die [culture|E] ist nicht in einer [county|E] repräsentiert mit Wüste, Wüstehügel oder Trockengebiet [terrain|E]"
- forest_percentage_desc:0 "Die Kultur [culture|E] hat keine #V 30%#! auf seine [counties|E] in Wäldern, Taiga, Taigahügeln, Dschungel oder Dschungelhügeln [terrain|E]"
- culture_in_forest_desc:0 "Die [culture|E] ist nicht in einer [county|E] repräsentiert mit Wäldern, Taiga, Taigahügeln, Dschungel oder Dschungelhügeln [terrain|E]"
- culture_in_jungle_desc:0 "Die Kultur [culture|E] ist nicht in einer [county|E] repäsentiert mit Dschungel oder Dschungelhügeln [terrain|E]"
- jungle_percentage_desc:0 "Die [culture|E] hat keine #V 30%#! auf seine [counties|E] in Dschungel oder Dschungelhügeln [terrain|E]"
- culture_in_plains_or_steppe_terrain_desc:0 "Die [culture|E] hat keine #V 40%#! auf seine [counties|E] in Ebenen [terrain|E] oder Steppe [terrain|E]"
- guess_you_need_more_friends_desc:0 "Du brauchst mindestens 3 [friends|E]"
+ dry_percentage_desc:0 "Die [culture|E] hat nicht #V 30 %#! ihrer [counties|E] im [terrain|E] Wüste, Wüstenhügel oder Trockengebiet"
+ culture_in_dryland_desc:0 "Die [culture|E] hat keine [county|E] im [terrain|E] Wüste, Wüstehügel oder Trockengebiet"
+ forest_percentage_desc:0 "Die [culture|E] hat nicht #V 30%#! ihrer [counties|E] im [terrain|E] Wälder, Taiga, Taigahügel, Dschungel oder Dschungelhügel"
+ culture_in_forest_desc:0 "Die [culture|E] hat keine [county|E] im [terrain|E] Wälder, Taiga, Taigahügel, Dschungel oder Dschungelhügel [terrain|E]"
+ culture_in_jungle_desc:0 "Die [culture|E] hat keine [county|E] im [terrain|E] Dschungel oder Dschungelhügel [terrain|E]"
+ jungle_percentage_desc:0 "Die [culture|E] hat nicht #V 30%#! ihrer [counties|E] im [terrain|E] in Dschungel oder Dschungelhügeln [terrain|E]"
+ culture_in_plains_or_steppe_terrain_desc:0 "Die [culture|E] hat nicht #V 40%#! ihrer [counties|E]  im [terrain|E] Ebenen oder Steppe"
+ guess_you_need_more_friends_desc:0 "Ihr benötigt mindestens 3 [friends|E]"
