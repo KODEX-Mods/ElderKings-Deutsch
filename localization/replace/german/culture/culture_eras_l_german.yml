@@ -1,7 +1,7 @@
 ﻿l_german:
  #ERAS
  culture_era_nativity:0 "Merethische Ära"
- culture_era_nativity_desc:0 "Als die Zeit linear wurde und die Völker von Tamriel langsam entstand und sich entwickelten.\n\nNur Innovationen in Bezug auf [nativity_regions|E] können in dieser Ära gefunden werden."
+ culture_era_nativity_desc:0 "Als die Zeit linear wurde und die Völker von Tamriel langsam entstanden und sich entwickelten.\n\nNur Innovationen in Bezug auf [nativity_regions|E] können in dieser Ära gefunden werden."
  culture_era_tribal:0 "Erste Ära"
  culture_era_tribal_desc:0 "Als die ersten Königreiche und Hoch Königreiche sich formten, und das meiste Land in Tamriel besiedelt wurde.\n\nHerrscher mit einem [tribal_government|E] können nur $culture_era_tribal$ [innovations|E] benutzen."
  culture_era_early_medieval:0 "Frühes Interregnum"
