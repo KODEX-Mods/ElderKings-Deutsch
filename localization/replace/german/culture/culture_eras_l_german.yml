@@ -1,12 +1,12 @@
 ﻿l_german:
  #ERAS
  culture_era_nativity:0 "Merethische Ära"
- culture_era_nativity_desc:0 "Als die Zeit linear wurde und die Völker von Tamriel langsam entstand und sich entwickelte.\n\nNur Innovationen in Bezug auf [nativity_regions|E] können in dieser Ära gefunden werden."
+ culture_era_nativity_desc:0 "Als die Zeit linear wurde und die Völker von Tamriel langsam entstanden und sich entwickelten.\n\nNur Innovationen in Bezug auf [nativity_regions|E] können in dieser Ära gefunden werden."
  culture_era_tribal:0 "Erste Ära"
  culture_era_tribal_desc:0 "Als die ersten Königreiche und Hoch Königreiche sich formten, und das meiste Land in Tamriel besiedelt wurde.\n\nHerrscher mit einem [tribal_government|E] können nur $culture_era_tribal$ [innovations|E] benutzen."
  culture_era_early_medieval:0 "Frühes Interregnum"
- culture_era_early_medieval_desc:0 "Das Akaviri Potentate von Cyrodiil war nicht für die Ewigkeit bestimmt. Auch sie war dem Untergang geweiht, und Tamriel ist danach zerbrochen."
+ culture_era_early_medieval_desc:0 "Das Akaviri Potentat von Cyrodiil war nicht für die Ewigkeit bestimmt. Auch sie war dem Untergang geweiht, und Tamriel ist danach zerbrochen."
  culture_era_high_medieval:0 "Zeit der Prätendenten"
- culture_era_high_medieval_desc:0 "In den meisten Teilen in Tamriel bilden sich regionale Hegemonien, die für sich in Anspruch nehmen, die alleinigen Erben der alten imperialen Herrschaft zu sein"
+ culture_era_high_medieval_desc:0 "In den meisten Teilen in Tamriel bilden sich regionale Hegemonien, die für sich in Anspruch nehmen, die alleinigen Erben der alten imperialen Herrschaft zu sein."
  culture_era_late_medieval:0 "Einigungskriege"
  culture_era_late_medieval_desc:0 "Jede große Ära muss enden. Die Vereinigungskriege waren eine Zeit großer Konflikte und zunehmender Zentralisierung, als der größte Teil Tamriels unter die herrschaft eines einzigen Reiches kam."
