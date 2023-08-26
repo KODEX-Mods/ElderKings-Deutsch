@@ -29,7 +29,7 @@ l_german:
  ek_dwemer_building_gfx:0 "Dwemerisch"
  ek_aldmer_building_gfx:0 "Aldmerisch"
  ek_balfieri_building_gfx:0 "Balfierisch"
- ek_ayleid_building_gfx:0 "Ayleidisch"
+ ek_ayleid_building_gfx:0 "Ayleïdisch"
  ek_nedic_north_building_gfx:0 "Nordnedisch"
  ek_nedic_south_building_gfx:0 "Südnedisch"
  ek_breton_building_gfx:0 "Bretonisch"
@@ -42,7 +42,7 @@ l_german:
  ek_strident_building_gfx:0 "Stridküster"
 
  
- ek_nedic_reach_clothing_gfx:0 "Reiker" 
+ ek_nedic_reach_clothing_gfx:0 "Reikisch" 
  ek_nedic_keptu_clothing_gfx:0 "Keptuer"
  ek_redguard_building_gfx:0 "Rotwardonisch"
  ek_orc_clothing_gfx:0 "Orkisch"
@@ -64,10 +64,10 @@ l_german:
  ek_colovian_clothing_gfx:0 "Colovianisch" 
  ek_strident_clothing_gfx:0 "Stridküster" 
  ek_chimeri_quey_clothing_gfx:0 "Chimeri-Quey" 
- ek_cantemiric_clothing_gfx:0 "Cantemiricer"
+ ek_cantemiric_clothing_gfx:0 "Cantemirisch"
  ek_breton_clothing_gfx:0 "Bretonisch" 
  ek_bosmeri_clothing_gfx:0 "Bosmerisch" 
- ek_ayleid_clothing_gfx:0 "Ayleidisch" 
+ ek_ayleid_clothing_gfx:0 "Ayleïdisch" 
  ek_argonian_clothing_gfx:0 "Argonisch" 
  ek_pellitinian_clothing_gfx:0 "Pellitiner" 
  ek_anequinan_clothing_gfx:0 "Anequinanisch" 
@@ -79,6 +79,6 @@ l_german:
  ek_goblin_clothing_gfx:0 "Goblin" 
  ek_riekling_clothing_gfx:0 "Riekler" 
  ek_dremora_clothing_gfx:0 "Dremorisch"
- ek_lilmothiit_clothing_gfx:0 "Lilmothiiter"
+ ek_lilmothiit_clothing_gfx:0 "Lilmothiit"
  ek_nedic_orma_clothing_gfx:0 "Ormaer"
 
