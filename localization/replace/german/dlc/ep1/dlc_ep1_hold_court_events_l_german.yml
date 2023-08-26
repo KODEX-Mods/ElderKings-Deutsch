@@ -5,8 +5,8 @@
  nc_charming:0 "reizend"
  nc_intelligent:0 "intelligent"
  nc_wellborn:0 "hochgeboren"
- rwh_empress:0 "ein Kaiserinnen-Gemahl" #oder ein Großkönig-Gemahl?
- rwh_emperor:0 "ein Kaiser-Gemahl" #oder Großkönig-Gemahl?
+ rwh_empress:0 "eein Großkönigin-Gemahl" #oder ein Großkönig-Gemahl?
+ rwh_emperor:0 "ein Großkönig-Gemahl" #oder Großkönig-Gemahl?
  rwh_queen:0 "ein Königinnen-Gemahl"
  rwh_king:0 "ein Prinzgemahl"
  rwh_duchess:0 "eine Herzogin"
