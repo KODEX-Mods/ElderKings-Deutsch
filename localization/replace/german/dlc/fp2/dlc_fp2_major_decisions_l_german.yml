@@ -1,4 +1,4 @@
 ﻿l_german:
- secure_mediterranean_decision.a:0 "Unlocks the #italic Abecean Conquest#! [casus_belli|E], allowing you to conquer any county along the shores of the Abecean Sea for the duration of the [house|E] modifier while you control [mediterranean_title.GetName]."
- secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.GetBaseName] Secured The Abecean"
- secure_mediterranean_decision.involved_notif_desc:0 "The [mediterranean_house.GetName] have unified various islands such as [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] and [sicily.GetNameNoTier]. Declaring ownership over the Abecean and creating a valid [casus_belli|E] against your coastal Abecean counties."
+ secure_mediterranean_decision.a:0 "Schaltet den [casus_belli|E] #italic Eroberung der Abekäis# frei, der es Euch erlaubt, eine beliebige Grafschaft entlang der Küste des Abekäischen Meeres für die Dauer des [house|E]-Modifikators zu erobern, während Ihr [mediterranean_title.GetName] kontrolliert."
+ secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.GetBaseName] Die Abekäis ist gesichert!"
+ secure_mediterranean_decision.involved_notif_desc:0 "Das Haus [mediterranean_house.GetName] hat verschiedene Inseln wie [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] und [sicily.GetNameNoTier] geeint. Sie erklären ihren Anspruch über die Abekäis, der einen gültigen [casus_belli|E] gegen Eure Grafschaften an der Küste des Abekäischen Meers bringt."
