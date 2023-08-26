@@ -20,7 +20,7 @@ fund_inspiration.6400.desc:0 "Bei einem Tavernenbesuch in [ROOT.Char.GetCapitalL
 
  fund_inspiration.6503.t:0 "$fund_inspiration.title$ Nordisches Geflüster"
  fund_inspiration.6503.desc:0 "\n\n'Ich habe einen Grabhügel aus der Zeit des Drachenkults erforscht. Hunderte von längst verstorbenen Kriegern, ausgestopft, konserviert und an den Wänden aufrecht stehend, jeder mit seinem eigenen Raum. Es war ein Palast für die Verdammten, verloren in der Zeit. Im Wissen um meine Pflicht, Wissen für unser Reich zu suchen, erwog ich, eine Reliquie aus der Gruft zu stehlen, als mein Reiseleiter nicht zusah, um sie euch zu bringen.""
- fund_inspiration.6503.a:0 "Du hast einen der Ornamente eingesteckt."
+ fund_inspiration.6503.a:0 "Du hast eines der Ornamente eingesteckt."
  fund_inspiration.6503.b:0 "Du hast eines der Schwerter der Krieger für unseren Saal mitgebracht."
 
 #Morrowind
