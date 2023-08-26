@@ -1,45 +1,45 @@
 ﻿l_german:
  ##### Hostility #####
- struggle_iberia_ending_hostility_decision_desc:0 "It is time for a strong leader to finally drag this Province from the mire of war and division. Hammerfell will be united under a [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] flying the  banner!"
- struggle_iberia_ending_hostility_decision_tooltip:0 "End the [struggle|E] for Hammerfell"
- struggle_iberia_ending_hostility_decision_confirm:1 "End the Struggle for Hammerfell"
+ struggle_iberia_ending_hostility_decision_desc:0 "Es ist Zeit für einen starken Anführer, der diese Provinz endlich aus dem Sumpf von Krieg und Spaltung zieht. Hammerfall wird unter einem [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] vereint sein, der die Fahne schwingt!"
+ struggle_iberia_ending_hostility_decision_tooltip:0 "Beende den [struggle|E] um Hammerfall"
+ struggle_iberia_ending_hostility_decision_confirm:1 "Beende den Kampf um Hammerfall"
  # Triggers
- struggle_iberia_ending_hostility_decision_kingdom_tt:0 "You [hold|E] and [completely_control|E] at least 2 [de_jure|E] [kingdoms|E] of [GetTitleByKey('e_hammerfell').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])"
- struggle_iberia_ending_hostility_decision_region_tt:2 "No other [independent|E] [struggle_involved|E] [ruler|E] controls more than [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% of [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]"
+ struggle_iberia_ending_hostility_decision_kingdom_tt:0 "Ihr [Concept('hold', 'Haltet')|E] und [Concept('completely_control', 'Kontrolliert vollständig')|E] mindestens 2 [de_jure|E]-[kingdoms|E] von [GetTitleByKey('e_hammerfell').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_kingdom_total_value')|0])"
+ struggle_iberia_ending_hostility_decision_region_tt:2 "Kein anderer [ruler|E], der [Concept('independent', 'Unabhängig')|E] und [struggle_involved|E] ist, kontrolliert mehr als [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0] % von [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]"
  # Effects
- fp2_struggle_hostility_conversion_tt:1 "$task_conversion$ and/or $task_promote_culture$ [councillor_tasks|E] speed in [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E]: #P +50%#!"
- fp2_struggle_hostility_conversion_holy_tt:0 "$task_conversion$ [councillor_task|E] speed in [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E]: #P +50%#!"
- fp2_struggle_hostility_conversion_culture_tt:0 "$task_promote_culture$ [councillor_task|E] speed in [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E]: #P +50%#!"
- fp2_struggle_hostility_acceptance_tt:0 "Hostility in Hammerfell"
+ fp2_struggle_hostility_conversion_tt:1 "Tempo der [councillor_tasks|E] „$task_conversion$“ und/oder „$task_promote_culture$“ in der [region|E] „[GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]“: #P +50 %#!
+ fp2_struggle_hostility_conversion_holy_tt:0 "Tempo der [councillor_task|E] „$task_conversion$“ in der [region|E] „[GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]“: #P +50 %#!"
+ fp2_struggle_hostility_conversion_culture_tt:0 "Tempo der [councillor_task|E] „$task_promote_culture$“ in der [region|E] „[GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]“: #P +50 %#!"
+ fp2_struggle_hostility_acceptance_tt:0 "Feindseligkeit in Hammerfall"
  # Modifiers
- fp2_struggle_hostility_house_faith_modifier_desc:0 "This house has conquered most of Hammerfell in the name of their faith."
- fp2_struggle_hostility_house_culture_modifier_desc:0 "This house has conquered most of Hammerfell in the name of their people."
- fp2_struggle_hostility_house_combined_modifier_desc:0 "This house has conquered most of Hammerfell in the name of their faith and people."
+ fp2_struggle_hostility_house_faith_modifier_desc:0 "Dieses Haus hat im Namen seines Glaubens den größten Teil von Hammerfall erobert."
+ fp2_struggle_hostility_house_culture_modifier_desc:0 "Dieses Haus hat im Namen seines Volkes den größten Teil von Hammerfall erobert."
+ fp2_struggle_hostility_house_combined_modifier_desc:0 "Dieses Haus hat im Namen seines Glaubens und seines Volkes den größten Teil von Hammerfall erobert."
  ##### Compromise #####
- struggle_iberia_ending_compromise_decision_desc:0 "These endless conflicts over the Province only weaken us all. It is time to accept that Hammerfell was never meant to be reunited, and instead be content with [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+ struggle_iberia_ending_compromise_decision_desc:0 "Diese endlosen Konflikte um die Provinz schwächen uns alle nur. Es ist an der Zeit zu akzeptieren, dass Hammerfall nie dazu bestimmt war, wiedervereinigt zu werden, und sich stattdessen mit [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] zufriedenzugeben."
  # Triggers
- struggle_iberia_ending_compromise_decision_kingdom_tt:0 "You [hold|E] and [completely_control|E] any [de_jure|E] [kingdom|E] of [GetTitleByKey('e_hammerfell').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])"
- struggle_iberia_ending_compromise_decision_region_tt:0 "You control less than [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% of the [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_owned_percent_value')|0]%)"
- struggle_iberia_ending_compromise_decision_other_region_tt:0 "No other [independent|E] [struggle_involved|E] [ruler|E] controls [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% or more of the [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E]"
+ struggle_iberia_ending_compromise_decision_kingdom_tt:0 "Sie [hold|E] und [completely_control|E] jedes [de_jure|E] [kingdom|E] von [GetTitleByKey('e_hammerfell').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])"
+ struggle_iberia_ending_compromise_decision_region_tt:0 "Sie kontrollieren weniger als [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% der [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_owned_percent_value')|0]%)"
+ struggle_iberia_ending_compromise_decision_other_region_tt:0 "Kein anderer [independent|E] [struggle_involved|E] [ruler|E] kontrolliert [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% oder mehr der [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E]"
  # EK TODO STRUGGLE: check if we want to limit this to kings only
- struggle_iberia_ending_compromise_decision_independent_tt:0 "No other [independent|E] [struggle_involved|E] [rulers|E] are [king|E] or [emperor|E] [rank|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])"
- struggle_iberia_ending_compromise_decision_interloper_tt:0 "More than [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% of the [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] is held by [struggle_interloper|E] or [struggle_uninvolved|E] [rulers|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_interloper_percent_value')|1]%)"
+ struggle_iberia_ending_compromise_decision_independent_tt:0 "Kein anderer [independent|E] [struggle_involved|E] [rulers|E] sind [king|E] oder [emperor|E] [rank|E] (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_independent_counter_value')|0])"
+ struggle_iberia_ending_compromise_decision_interloper_tt:0 "Mehr als [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% der [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] wird von [struggle_interloper|E] oder [struggle_uninvolved|E] [rulers|E] gehalten (Current: [SCOPE.ScriptValue('struggle_iberia_ending_compromise_decision_region_interloper_percent_value')|1]%)"
  # Effects
- fp2_struggle_compromise_create_new_kingdoms_tt:0 "Every [independent|E] or separated [duchy|E] in the [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] becomes a [de_jure|E] [kingdom|E]"
- fp2_struggle_compromise_create_new_empires_tt:1 "Every [de_jure|E] [kingdom|E] in the [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] with more than [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [counties|E] becomes a [de_jure|E] [empire|E]. The remaining [kingdoms|E] will fall under the [de_jure|E] of a neighboring [empire|E]."
- TRUCE_FP2_COMPROMISE:0 "Compromise in Hammerfell"
+ fp2_struggle_compromise_create_new_kingdoms_tt:0 "Jedes [independent|E] oder separierte [duchy|E] in der [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] wird zu ein [de_jure|E] [kingdom|E]"
+ fp2_struggle_compromise_create_new_empires_tt:1 "Jedes [de_jure|E] [kingdom|E] in der [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] [region|E] mit mehr als [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [counties|E] wird zu einem [de_jure|E] [empire|E]. Die verbleibenden [kingdoms|E] fallen unter die [de_jure|E] eines benachbarten [empire|E]."
+ TRUCE_FP2_COMPROMISE:0 "Kompromiss in Hammerfall"
  # Modifiers
- fp2_struggle_compromise_house_reward_modifier_desc:0 "This house led their realm out of the struggle for Hammerfell."
- fp2_struggle_compromise_defensive_reward_modifier_desc:1 "This county is the historic capital of one of the Hammerfell princedoms that survived the centuries of struggle."
+ fp2_struggle_compromise_house_reward_modifier_desc:0 "Dieses Haus hat sein Reich aus dem Kampf um Hammerfall herausgeführt."
+ fp2_struggle_compromise_defensive_reward_modifier_desc:1 "Diese Grafschaft ist die historische Hauptstadt eines der Hammerfall-Fürstentümer, die die Jahrhunderte des Kampfes überlebt haben."
  ##### Conciliation ######
- struggle_iberia_ending_conciliation_decision_desc:0 "The wounds of the past centuries will not be easily healed, but we must try if the Province is to find a lasting peace. Truly, Hammerfell belongs to all of us."
+ struggle_iberia_ending_conciliation_decision_desc:0 "Die Wunden der vergangenen Jahrhunderte werden nicht leicht zu heilen sein, aber wir müssen es versuchen, wenn die Provinz einen dauerhaften Frieden finden will. Wahrlich, Hammerfall gehört uns allen."
  #Effects
- fp2_struggle_conciliation_acceptance_tt:0 "Conciliation in Hammerfell"
- fp2_struggle_conciliation_join_war_tt:1 "Permanently allows [struggle_involved|E] [culture|E] and [faith|E] [rulers|E] to join each other's defensive [wars|E] against outside invaders of [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName]"
+ fp2_struggle_conciliation_acceptance_tt:0 "Versöhnung in Hammerfall"
+ fp2_struggle_conciliation_join_war_tt:1 "Erlaubt [struggle_involved|E] [culture|E] und [faith|E] [rulers|E] einander in Verteidungs-[wars|E] gegen Angreifer von außen von [GetGeographicalRegion('mundus_tamriel_hammerfell').GetName] zu unterstützen."
  # Modifiers
- fp2_struggle_conciliation_house_reward_modifier_desc:0 "This house accepted that the way to a lasting peace in Hammerfell lies in peace and tolerance."
+ fp2_struggle_conciliation_house_reward_modifier_desc:0 "Dieses Haus hat akzeptiert, dass der Weg zu einem dauerhaften Frieden in Hammerfall in Frieden und Toleranz liegt."
  ### Common
- fp2_struggle_can_create_empire_of_hispania_tt:0 "Unlocks creation of the [empire|E] of [GetTitleByKey('e_hammerfell').GetNameNoTier]"
- fp2_struggle_compromise_destroy_hispania_tt:1 "The [empire|E] of [GetTitleByKey('e_hammerfell').GetNameNoTier] is permanently #negative_value destroyed#!"
+ fp2_struggle_can_create_empire_of_hispania_tt:0 "Schaltet die Erstellung des [empire|E] von [GetTitleByKey('e_hammerfell').GetNameNoTier] frei"
+ fp2_struggle_compromise_destroy_hispania_tt:1 "Das [empire|E] von [GetTitleByKey('e_hammerfell').GetNameNoTier] ist dauerhaft #negative_value destroyed#!"
 
- CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Hammerfell Hostility"
+ CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Hammerfall-Feindschaft"
