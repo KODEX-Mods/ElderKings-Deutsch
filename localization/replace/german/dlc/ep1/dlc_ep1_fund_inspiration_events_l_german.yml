@@ -9,21 +9,19 @@ fund_inspiration.6400.desc:0 "Bei einem Tavernenbesuch in [ROOT.Char.GetCapitalL
 #Cyrodiil
 
  fund_inspiration.6001.t:0 "Reise durch Cyrodiil ,"
- fund_inspiration.6001.desc:0 "Ich bin monatelang unterwegs gewesen. Mein Hintern wird sich nie wieder erholen! Ich habe eine Vorliebe für Kaiserliches Starkbier und Nächte unter freiem Himmel entwickelt.\n\nMit diesem Kurier sende ich einen Varla-Stein - einen von den Ayleiden geschaffenen Stein, der aus etwas aus Aetherius hergestellt sein soll. Vielleicht habt Ihr eine Verwendung dafür"
- fund_inspiration.6001.a:0 "Ich werde es aufbewahren!"
- fund_inspiration.6001.b:0 "Schickt es an den Hofmagier."
+ fund_inspiration.6001.desc:0 "Ich bin monatelang unterwegs gewesen. Mein Hintern wird sich nie wieder erholen! Ich habe eine Vorliebe für Kaiserliches Starkbier und Nächte unter freiem Himmel entwickelt.\n\nMit diesem Kurier sende ich einen Varla-Stein - einen von den Ayleïden geschaffenen Stein, der aus etwas aus Aetherius hergestellt sein soll. Vielleicht habt Ihr eine Verwendung dafür"
 
 #Skyrim
 
  fund_inspiration.6002.t:0 "Mein Streifzug durch Himmelsrand geht weiter!"
- fund_inspiration.6002.desc:0 "Der Schnee in der Wildnis hat mich fast geblendet. Ich sehne mich nach der Wärme eines Herdes.\n\Ich habe einen Kurier mit einer Urne geschickt, die ich gefunden habe. Habt Ihr jemals etwas so Grelles gesehen?"
+ fund_inspiration.6002.desc:0 "Der Schnee in der Wildnis hat mich fast geblendet. Ich sehne mich nach der Wärme eines Herdes.\n\nIch habe einen Kurier mit einer Urne geschickt, die ich gefunden habe. Habt Ihr jemals etwas so schrilles gesehen?
  fund_inspiration.6002.a:0 "Ich finde es gut, es ist [inspiration_owner.GetHerHis] Verlust."
  fund_inspiration.6002.b:0 "Schrecklich! Nimm es auseinander und verkaufe die Edelsteine."
 
  fund_inspiration.6503.t:0 "$fund_inspiration.title$ Nordisches Geflüster"
  fund_inspiration.6503.desc:0 "\n\n'Ich habe einen Grabhügel aus der Zeit des Drachenkults erforscht. Hunderte von längst verstorbenen Kriegern, ausgestopft, konserviert und an den Wänden aufrecht stehend, jeder mit seinem eigenen Raum. Es war ein Palast für die Verdammten, verloren in der Zeit. Im Wissen um meine Pflicht, Wissen für unser Reich zu suchen, erwog ich, eine Reliquie aus der Gruft zu stehlen, als mein Reiseleiter nicht zusah, um sie euch zu bringen.""
  fund_inspiration.6503.a:0 "Du hast einen der Ornamente eingesteckt."
- fund_inspiration.6503.b:0 "Du hast eines der Schwerter der Krieger für euer Saal mitgebracht."
+ fund_inspiration.6503.b:0 "Du hast eines der Schwerter der Krieger für unseren Saal mitgebracht."
 
 #Morrowind
 
@@ -44,5 +42,5 @@ fund_inspiration.6006.b:0 "[inspiration_owner.GetSheHe|U] scheint zu viel Spaß 
 
 # High Rock
 
-fund_inspiration.6004.t:0 "Ah, ein Kaufmann zu sein,"
+fund_inspiration.6004.t:0 "Ach, ein Kaufmann zu sein,"
 fund_inspiration.6004.desc:0 "Auf meiner Reise durch den Hochfels habe ich mich meist in den endlosen Märkten verirrt, die Dinge aus ganz Tamriel und darüber hinaus in die Iliac-Bucht bringen.\n\n Beim Durchstöbern der Waren eines Händlers stieß ich auf diesen interessanten Fund. Eine antike Karte, gezeichnet von einem alten Kartografen vor unzähligen Jahrzehnten. Ich hoffe, ihr findet sie genauso amüsant wie ich."
