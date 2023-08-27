@@ -1,26 +1,26 @@
 ﻿l_german:
- martial_chivalry.0002.desc:0 "I have ridden, taken aim, and struck so many times I thought nothing could upset my rhythm. As I take yet another gallop down the practice range, a commotion I cannot fully see makes my [ROOT.Char.Custom('LocalMount')] rear up.\n\nFor an instant, momentum keeps me pinned to the back of the [ROOT.Char.Custom('LocalMount')] as it starts shaking. Then, as if time is flowing slow, I can feel myself becoming dislodged."
+ martial_chivalry.0002.desc:0 Ich war so erfahren darin zu reiten, zu zielen und zu treffen, dass ich immer dachte, nichts könnte meinen Rhythmus stören. Als ich ein weiteres Mal den Übungsplatz hinabgaloppiere, bringt irgendetwas außerhalb meines Gesichtsfeldes mein [ROOT.Char.Custom('LocalMount')] nach hinten kippen.\n\ndazu, sich aufzubäumen.\n\nEinen Augenblick lang hält mich das Bewegungsmoment auf dem Rücken des [ROOT.Char.Custom('LocalMount')] dann scheint die Zeit langsamer zu laufen und ich spüre, wie ich den Halt im Sattel verliere."
  
- martial_chivalry.0002.increase_horse_mastery:1 "My mastery of [ROOT.Char.Custom('LocalMount')|U] riding increases, and with it my expertise in the [martial_lifestyle|E]."
+ martial_chivalry.0002.increase_horse_mastery:1 "Meine Fähigkeiten im [ROOT.Char.Custom('LocalMount')|U] werden verbessert, und ebenso mein Wissen über den [martial_lifestyle|E].."
 
- martial_chivalry.0003.desc:0 "I can feel myself being thrown left and right, but no motion can make me loosen my grasp on the reins and the saddle.\n\nMy commands eventually soothe the [ROOT.Char.Custom('LocalMount')], and the animal is soon back to stomping eagerly on the hard-packed ground, as stable as ever."
+ martial_chivalry.0003.desc:0 "Ich spüre, wie es mich nach rechts und links wirft, aber nichts bringt mich dazu, die Zügel und den Sattel loszulassen.\n\nSchließlich beruhigen meine Kommandos das [ROOT.Char.Custom('LocalMount')], und bald schon stapft das Tier wieder eifrig auf dem festgetrampelten Boden, stabil wie eh und je."
 
- martial_chivalry.0003.a.tt:1 "If nothing else, the incident has taught you a little more about controlling [ROOT.Char.Custom('LocalMountMultiple')]."
+ martial_chivalry.0003.a.tt:1 "Immerhin habt Ihr aus diesem Vorfall ein wenig darüber gelernt, wie man [ROOT.Char.Custom('LocalMountMultiple')] im Zaum hält."
 
- martial_chivalry.0005.t:0 ""What a Bad Day for [ROOT.Char.Custom('LocalMount')|U] Riding""
+ martial_chivalry.0005.t:0 ""An einem solchen Tag sollte man gar nicht erst aufsteigen""
  
- martial_chivalry.0006.a:0 "How did I end up in bed? Where is my [ROOT.Char.Custom('LocalMount')|U]?"
+ martial_chivalry.0006.a:0 Wie komme ich in dieses Bett? Wo ist mein [ROOT.Char.Custom('LocalMount')|U]?"
 
- martial_chivalry.0007.t:0 "My Kingdom for a [ROOT.Char.Custom('LocalMount')|U]"
+ martial_chivalry.0007.t:0 "Mein Königreich für ein [ROOT.Char.Custom('LocalMount')|U]"
  
- martial_chivalry_special.1601.t:0 "Training a War[ROOT.Char.Custom('LocalMount')]"
- martial_chivalry_special.1601.desc:0 "As I inspect the stables my gaze is drawn to an animal kept away from all others. [dummy_gender.GetSheHe|U] throws [dummy_gender.GetHerHis] head and stomps the ground, displaying [dummy_gender.GetHerHis] powerful hindquarters and well-arched neck. This creature has the best of conformations and the worst of tempers.\n\nI have never seen such a war[ROOT.Char.Custom('LocalMount')] before, but the stable-master insists that [dummy_gender.GetSheHe] is impossible to train."
+ martial_chivalry_special.1601.t:0 "Die Ausbildung eines Schlachtrosses"
+ martial_chivalry_special.1601.desc:0 "Als ich die Ställe inspiziere, fällt mein Blick auf ein[dummy_gender.Custom('DE_END_PRO_S_A')] [dummy_gender.Custom('HorseMareStallion')]. Das Pferd steht abseits von den anderen, wirft den Kopf umher und stampft mit den Hufen. Ich bewundere seine starke Hinterhand und den edlen Hals. Dieses Tier hat einen vorbildlichen Körper, aber ein übles Temperament.\n\nIch habe noch nie ein derartiges Schlachtross gesehen, doch der Stallmeister beharrt darauf, dass das Tier sich jeder Ausbildung widersetzt."
 
- martial_chivalry_special.1601.c:0 "My stable-master will learn a lot from taming [dummy_gender.GetHerHim]."
- martial_chivalry_special.1601.a.tt:1 "The [ROOT.Char.Custom('LocalMount')|U] might become your own steed"
+ martial_chivalry_special.1601.c:0 "Mein Stallmeister wird viel dabei lernen, wenn er [dummy_gender.Custom('DE_PRO_PER_S_3P_A')] zähmt."
+ martial_chivalry_special.1601.a.tt:1 "Das [ROOT.Char.Custom('LocalMount')|U] könnte Euer Ross werden"
 
- martial_chivalry_special.1603.desc:1 "The [ROOT.Char.Custom('LocalMount')|U] pins [dummy_gender.GetHerHis] ears back as I approach, [dummy_gender.GetHerHis] disregard for me crystal clear. This first meeting is important to earn [dummy_gender.GetHerHis] trust and respect, and I need to decide how to go about it."
+ martial_chivalry_special.1603.desc:1 "Das [ROOT.Char.Custom('LocalMount')|U] legt [dummy_gender.GetHerHis]die Ohren an, als ich mich nähere. die Ohren an, als ich mich nähere. Es ist mehr als deutlich, wie sehr es mich verachtet. Dieses erste Treffen ist wichtig, wenn ich mir das Vertrauen und den Respekt des Rosses sichern möchte, und ich muss mich entscheiden, wie ich es angehe."
 
- martial_chivalry_special.1604.desc_success:0 "It is a mighty feeling; the powerful [ROOT.Char.Custom('LocalMount')|U] follows my every whim. Now that I have earned [dummy_gender.GetHerHis] trust [dummy_gender.GetSheHe] seems almost fond of me."
- martial_chivalry_special.1604.desc_failure:0 "No matter what I try the [ROOT.Char.Custom('LocalMount')|U] refuses to listen. My attempts leave both [dummy_gender.GetHerHim] and me sweating and angry, and as I leave the stables late in the evening I know that I am not coming back anytime soon."
- martial_chivalry_special.1604.a:1 "I will keep [dummy_gender.GetHerHim] as my personal war[ROOT.Char.Custom('LocalMount')|U]!"
+ martial_chivalry_special.1604.desc_success:0 "Welch überwältigendes Gefühl; das starke [ROOT.Char.Custom('LocalMount')|U] folgt jedem meiner Befehle. Nun, da ich sein Vertrauen gewonnen habe, scheint es mich beinahe ins Herz geschlossen zu haben."
+ martial_chivalry_special.1604.desc_failure:0 "Egal was ich versuche, das [ROOT.Char.Custom('LocalMount')|U] weigert sich, auf mich zu hören. Nach meinen Versuchen sind sowohl ich als auch das Tier schweißüberströmt und wütend, und als ich spätabends den Stall verlasse, weiß ich, dass ich so schnell nicht wieder hierherkomme."
+ martial_chivalry_special.1604.a:1 "Ich werde dieses [dummy_gender.GetHerHim] als mein persönliches Schlacht[ROOT.Char.Custom('LocalMount')|U]!"
