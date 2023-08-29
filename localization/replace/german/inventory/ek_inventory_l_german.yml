@@ -1,5 +1,5 @@
 ﻿l_german:
 #rarity levels
- masterwork:0 "Rare" #EK: Replaced Masterwork with Rare
- famed:0 "Famed"
- illustrious:0 "Legendary" #EK: Replaced illustrious with Legendary
+ masterwork:0 "Seltene" #EK: Replaced Masterwork with Rare
+ famed:0 "Berühmt"
+ illustrious:0 "Legendär" #EK: Replaced illustrious with Legendary
