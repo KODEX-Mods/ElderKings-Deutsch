@@ -1,2 +1,2 @@
 ﻿l_german:
- SCHEME_EYE_FOR_AN_EYE:1 "Your [culture|E] is vengeful, and [target.GetShortUIName] is your Rival: $VALUE|+0=$"
+ SCHEME_EYE_FOR_AN_EYE:1 "Ihre [culture|E] ist rachsüchtig, und [target.GetShortUIName] ist Euer Rivale: $VALUE|+0=$"
