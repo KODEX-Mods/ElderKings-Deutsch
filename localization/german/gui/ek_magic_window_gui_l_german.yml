@@ -1,4 +1,4 @@
-﻿l_german:
-  BUTTON_SPELLBOOK: "Spellbook"
-  BUTTON_RITUALS: "Rituals"
+l_german:
+  BUTTON_SPELLBOOK: "Zauberbuch"
+  BUTTON_RITUALS: "Rituale"
   RITUAL_EFFECT: "#T [StaticModifier.GetName]#!\n[StaticModifier.GetDesc]"
