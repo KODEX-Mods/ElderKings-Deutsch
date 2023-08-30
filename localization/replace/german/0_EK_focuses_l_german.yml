@@ -1,8 +1,8 @@
 ﻿l_german:
  
 #Learning
- learning_medicine_focus:1 "Alchemy Focus"
+ learning_medicine_focus:1 "Alchemie Fokus"
  learning_medicine_focus_modifier:1 "[GetFocus('learning_medicine_focus').GetName]"
- learning_medicine_focus_desc:0 "An understanding of reagents and how to use them will bring the body and soul many benefits."
- learning_medicine_focus_effect_desc:0 "Focusing on Alchemy grants:"
- medicine_name:1 "Whole of Body"
+ learning_medicine_focus_desc:0 "Das Verständnis für Reagenzien und deren Anwendung bringt Körper und Seele viele Vorteile."
+ learning_medicine_focus_effect_desc:0 "Fokus auf Alchemie bringt:"
+ medicine_name:1 "Ganzer Körper"
