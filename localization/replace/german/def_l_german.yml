@@ -80,9 +80,9 @@
  #GAME_DATE_STRING_LONG:2 "$DAY|O$ of $MONTH$, $ERA_SEL_IG$ $YEAR_SEL_IG$"
  
  ### Text replacements in main menu
- FRONTEND_CONTINUE_TT:1 "#T Continue From Save Game\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetStringShortNoYear|V], $ERA_SEL_SGI$ $YEAR_SEL_SGI$\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud Save', '' )]"
- LOAD_SAVE_ITEM_DATE:0 "Date: [SaveGameItem.GetDate.GetStringShortNoYear], $ERA_SEL_SGI$ $YEAR_SEL_SGI$"
- PICK_ANY_CHARACTER:0 "Play as any Ruler in #light_background;bold [Select_CString( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ), '2E', '1E' )] [Subtract_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]...#! or #bold create your own!#!" # EK Era System
+ FRONTEND_CONTINUE_TT:1 "#T Von Spielstand fortsetzen\n#!„[SaveGameItem.GetName]“\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetString|V]\n[Select_CString(SaveGameItem.IsCloudSave, 'Cloud-Speicherstand', '')]"
+ LOAD_SAVE_ITEM_DATE:0 "Datum: [SaveGameItem.GetDate.GetStringShortNoYear], $ERA_SEL_SGI$ $YEAR_SEL_SGI$"
+ PICK_ANY_CHARACTER:0 "Spielt als Herrscher im Jahr #light_background;bold [Select_CString( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ), '2E', '1E' )] [Subtract_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, Multiply_int32( Subtract_int32( BoolTo1And2( GreaterThan_int32( GameSetup.GetSelectedBookmark.GetDate.GetYear, '(int32)2920' ) ), '(int32)1' ), '(int32)2920' ) )]...#! or #bold create your own!#!" # EK Era System
  
  ### Replacements in GUI files 
  ## gui/frontend_bookmarks.gui
@@ -98,6 +98,6 @@
  
  
  ### Loc replacement
- game_concept_religion_desc:0 "A $game_concept_religion$ can consist of many different denominations, called [faiths|E]. Religions, in turn, belong to one of three larger [religious_families|E]: [GetReligionFamily('rf_aedra').GetName], [GetReligionFamily('rf_daedra').GetName] or [GetReligionFamily('rf_aurbis').GetName]."
- game_concept_religious_family_desc:0 "A $game_concept_religious_family$ is a group of [religions|E]. The $game_concept_religious_family$ affects how the various Religions, and [faiths|E] therein, view each other.\n\nThe [GetReligionFamily('rf_aedra').GetName] Family tends to worship the Aedra. Religions are susceptible to [heresy|E].\n\nThe [GetReligionFamily('rf_daedra').GetName] Family focuses on the Daedric Princes. Faiths considering Daedric Worship [criminal|E] will consider most [GetReligionFamily('rf_daedra').GetName] faiths Evil. Religions are susceptible to [heresy|E].\n\nThe [GetReligionFamily('rf_aurbis').GetName] Family worships other great forces of the universe. Some faiths within this family can still be drawn to an Aedric or a Daedric patron, but in general they do not focus on either of these two categories. Religions are susceptible to [heresy|E]."
+ game_concept_religion_desc:0 "Eine $game_concept_religion$ kann aus vielen verschiedenen Konfessionen bestehen, die man [faiths|E] nennt. Religionen wiederum gehören zu einer von drei großen [religious_families|E]: [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName] oder [GetReligionFamily('rf_pagan').GetName]."
+ game_concept_religious_family_desc:0 "Eine $game_concept_religious_family$ ist eine Gruppe von [religions|E]. Die $game_concept_religious_family$ wirkt sich darauf aus, wie verschiedene Religionen und die darin enthaltenen [faiths|E] einander betrachten.\n\nDie [GetReligionFamily('rf_abrahamic').GetName|l]e Familie erlaubt [holy_wars|E] gegen alle anderen #weak (einschließlich andere abrahamitische Glaubensausrichtungen)#!. Religionen sind anfällig gegen [heresy|E].\n\nDie [GetReligionFamily('rf_eastern').GetName|l]e Familie erlaubt Religionskriege nur gegen andere Glaubensfamilien.\n\nDie [GetReligionFamily('rf_pagan').GetName|l]e Familie erlaubt Religionskriege gegen alle anderen, doch die in den Religionen enthaltenen Glauben müssen erst reformiert werden, um Zugang darauf zu erhalten."
  
