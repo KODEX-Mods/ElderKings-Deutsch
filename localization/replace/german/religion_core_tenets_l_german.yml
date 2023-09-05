@@ -1,4 +1,4 @@
 ﻿l_german:
- tenet_mystical_birthright_desc:0 "The divine has a plan for each of us. Some are destined for things greater than life, and it is our duty to follow them."
+ tenet_mystical_birthright_desc:0 "Das Göttliche hat für jeden von uns einen Plan. Einige sind für Dinge bestimmt, die größer sind als das Leben, und es ist unsere Pflicht, ihnen zu folgen."
  
- doctrine_parameter_conquest_cb_enabled:0 "Can use Conquest [casus_belli|E] without the required [innovations|E]. If the attacker's culture has the required [innovation|E], the [casus_belli|E] requires one less [prestige_level|E] or [piety_level|E]"
+ doctrine_parameter_conquest_cb_enabled:0 "Kann Eroberung [casus_belli|E] ohne die erforderlichen [innovations|E] einsetzen. Wenn die Kultur des Angreifers die erforderliche [Innovation|E] hat, benötigt der [casus_belli|E] ein [prestige_level|E] oder [piety_level|E] weniger."
