@@ -1,6 +1,6 @@
 ﻿l_german:
 # EK EDIT: to avoid John "the Imperial Cult" Cena
-nick_the_faith:0 "the [CHARACTER.GetFaith.GetAdherentName]"
-nick_the_faith_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] an ardent [CHARACTER.GetFaith.GetAdherentName] out of place, making [CharYouHerHim(CHARACTER)] a novelty in the eyes of others."
-nick_the_chronicler:0 "the Chronicler"
-nick_the_chronicler_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] enjoy[_s(CHARACTER)] inking stories, wielding fact and fiction alike. We can only hope [CharYourHerHis(CHARACTER)] 'chronicles' are free of #EMP myth, invention, bias or propaganda#!"
+nick_the_faith:0 "der [CHARACTER.GetFaith.GetAdherentName]"
+nick_the_faith_desc:2 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] ein leidenschaftlicher [CHARACTER.GetFaith.GetAdherentName] deplatziert und macht [CharYouHerHim(CHARACTER)] eine Neuheit in den Augen der anderen."
+nick_the_chronicler:0 "der Chronist"
+nick_the_chronicler_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] genießt es[_s(CHARACTER)] Geschichten einfärben und dabei sowohl Fakten als auch Fiktion verwenden. Wir können nur hoffen das die Chroniken von [CharYourHerHis(CHARACTER)]frei von #EMP-Mythen, Erfindungen, Voreingenommenheit oder Propaganda# sind!"
