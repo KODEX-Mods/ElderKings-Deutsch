@@ -53,7 +53,7 @@
  CW_DATE_Feb:1 "SonAuf (2)"
  CW_DATE_Mar:1 "ErstSaat (3)"
  CW_DATE_Apr:1 "Regenhand (4)"
- #CW_DATE_May:1 "Zweitsaat (5)"
+ CW_DATE_May:1 "Zweitsaat (5)"
  CW_DATE_Jun:1 "Mittjahr (6)"
  CW_DATE_Jul:1 "SonHöhe (7)"
  CW_DATE_Aug:1 "Letztsaat (8)"
